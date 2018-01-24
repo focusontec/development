@@ -1,0 +1,13 @@
+url ,需要改变的参数，为start 起始条目    display 加载条目
+        nx_search_query 和 query  都是关键字
+那些为0的参数，经过实验可以去掉。
+
+每一条的html中的span标签的json内容，解析后：
+{ \"crArea\": \"b\", \"rank\":\"1\", \"link\":\"http://blog.naver.com/mind_shower/221088063155\", \"title\":\"12일_왜 준비할수록 걱정이 커질까\",
+            \"date\":\"2017.09.02.\", \"originalUrl\":\"http://blogfiles1.naver.net/MjAxNzA5MDNfOTcg/MDAxNTA0MzY3NzI4ODcz.0wXNL3OEPCjkPWZfaMRAUuxnq91vHo5Gpl4-kD6KBkkg.YUSkWL1xJeDgGzoE3vHZvy9oNpHR48Ca-1fr9GD6Nmkg.GIF.mind_shower/giphy.gif\",
+            \"imgId\":\"blog63049216|20|221088063155_1\", \"source\":\"블로그\", \"orgWidth\":\"480\",
+            \"orgHeight\":\"482\", \"thumb\":\"https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles1.naver.net%2FMjAxNzA5MDNfOTcg%2FMDAxNTA0MzY3NzI4ODcz.0wXNL3OEPCjkPWZfaMRAUuxnq91vHo5Gpl4-kD6KBkkg.YUSkWL1xJeDgGzoE3vHZvy9oNpHR48Ca-1fr9GD6Nmkg.GIF.mind_shower%2Fgiphy.gif&type=b400\",
+            \"thumb44\":\"https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles1.naver.net%2FMjAxNzA5MDNfOTcg%2FMDAxNTA0MzY3NzI4ODcz.0wXNL3OEPCjkPWZfaMRAUuxnq91vHo5Gpl4-kD6KBkkg.YUSkWL1xJeDgGzoE3vHZvy9oNpHR48Ca-1fr9GD6Nmkg.GIF.mind_shower%2Fgiphy.gif&type=n88_88\",
+            \"topUrl\":\"http://blog.naver.com/mind_shower\", \"subsection\":\"마음을 씻는 비누\",
+            \"cclType\": \"0\", \"overbyte\": \"0\", \"gdid\": \"90000003_000000000000003379E01EB3\", \"signature\": \"660179854179984\",
+            \"sttData\": \"\" }

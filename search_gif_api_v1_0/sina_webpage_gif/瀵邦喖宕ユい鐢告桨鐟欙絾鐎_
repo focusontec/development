@@ -1,0 +1,26 @@
+http://s.weibo.com/weibo/%25E7%2589%25B9%25E6%259C%2597%25E6%2599%25AE?topnav=1&wvr=6&b=1
+http://s.weibo.com/weibo/{keyword}?topnav=1&wvr=6&b=1
+
+微博登陆搜索思路：
+
+创建一个微博账号的数据库，登陆 ---> 获取cookie -----> 搜索时加上cookie，并且记录该cookie使用的次数（应该在类中实现，即该类一共实例化几次）
+SUB=_2A253K_yiDeRhGeBK6VQR9SvKyjiIHXVUQWlqrDV8PUNbmtAKLRjdkW9NR8wwiheVNwdc78xjaJDcfHCPiO6C3vND; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WWazoCIzaVUG3aec-jd-FWF5JpX5K2hUgL.FoqXeoq7SK-ceKB2dJLoI7yJdcSfMNxLq7tt; login_sid_t=26db486473310a5334d7a1fbc8ef2eb8; cross_origin_proto=SSL; _s_tentry=passport.weibo.com; Apache=8324640846746.8125.1513065581718; SINAGLOBAL=8324640846746.8125.1513065581718; ULV=1513065581721:1:1:1:8324640846746.8125.1513065581718:; WBtopGlobal_register_version=49306022eb5a5f0b; UOR=,,graph.qq.com; SCF=AhXgMQh0b8yguq1ThdmlPjRJhJ2FmiHbUascamvwlfpP76sT8druxEtpqwzWBxWTbQYSzHHtH2ZBHWk8mUwuOQQ.; SUHB=0WGcbKrUfIKb_c; ALF=1513670514; SSOLoginState=1513065714; un=18864932834; SWB=usrmdinst_22; wvr=6; SWBSSL=usrmdinst_8; WBStorage=81fd372985034324|undefined
+
+更多内容返回文档：
+/gif/searchByQuery/weibo/ShowMore/<moreUrl>
+　　　　　　参数：　　　　是否必须：　　　说明：
+        moreUrl        是        在访问ｓｉｎａ关键字搜索的返回结果中的“moreContentHref”对应的值
+
+
+返回结果：
+
+｛ｈｔｍｌ: 内容｝
+
+
+接口访问频次优化策略：
+１. 本地存储热词搜索查询结果，避免下次输入形同关键字的时候再次查询，这种情况下及其容易触发微博频次限制，或者有封号的风险
+２. 增加账号数量，后端调度使用不同账号搜索。
+３. 访问频次的限制，非注册用户限制搜索次数，多余该次数要求其登陆。
+
+
+"['15600728162','0p-0p-0op',0]"

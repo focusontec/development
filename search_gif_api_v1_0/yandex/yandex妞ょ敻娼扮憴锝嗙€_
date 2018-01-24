@@ -1,0 +1,10 @@
+url = https://yandex.com/images/search?p=4&text=BUS&itype=gif&uinfo=sw-1536-sh-864-ww-1025-wh-709-pd-1.25-wp-16x9_1920x1080&rpt=image
+获取响应后，获取 //div[contains(@class,"serp-item serp-item_type_search serp-item_group_search serp-item_pos_")]/@data-bem
+
+可以得到一个json数据
+转化成字典之后 获取  "serp-item"对应的值， 又得到一个json数据
+获取 "preview"或者"dumps"对应的内容
+如果是preview，里面的url就是图片的大图地址
+如果是dumps， 第一个元素（字典），里面的url就是大图片的地址
+
+
