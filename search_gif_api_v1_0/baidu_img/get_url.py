@@ -2,6 +2,9 @@
 import requests
 import rson
 from copy import deepcopy
+
+import threadpool
+from gif_api_v1_0 import app
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -9,7 +12,7 @@ sys.setdefaultencoding('utf-8')
 from baidu_img.decode_url import DecodeUrl
 from base.tools import generate_UserAgent
 from base import logger
-from base.tools import Cleaner
+from base.tools import Cleaner,clean_data
 
 class BaiduImgGifApi(object):
     """
@@ -72,6 +75,14 @@ class BaiduImgGifApi(object):
         else:
             return [],total_image_num
         # 开线程，请求图片地址，ａｓｓｅｒｔ　＝＝　２００　；　否则删除
+        pool = app.pool
+        temp_cont = []
+        for item in each_page_imges:
+            reqs = threadpool.makeRequests(clean_data, [([str(item), temp_cont], None)])
+            [pool.putRequest(req) for req in reqs]
+        pool.wait()
+
+        return  temp_cont,total_image_num
         cc = Cleaner(each_page_imges)
         cc.task_()
         each_page_imges = cc.clean_data

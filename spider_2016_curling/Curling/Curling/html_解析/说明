@@ -1,0 +1,13 @@
+2017 Sapporo Asian Winter Games，这个网站没有后续网站，http://www.worldcurling.org/awg2017。后续全部为空
+Audi quattro Winter Games NZ 2017,这个网站也没有后续网页，http://www.worldcurling.org/nzwg2017
+6th World Curling Congress ,这个网站没有后续网站,http://www.worldcurling.org/congress2017
+
+
+event_abb_list = ["", "WUNI2017P", "CUR_WJCC2017P", "", "CUR_WWhCC2017P", "CUR_WWCC2017P","CUR_WMCC2017P",
+                          "CUR_WMDCC2017P", "CUR_WSCC2017P", "", "", "", "CUR_WMxCC2017P", "CUR_PACC2017P",
+                          "CUR_ECCA2017P","CUR_OQE2017P"]
+
+event_id_list = ["", "116", "118", "", "119", "120", "121", "122", "123", "", "", "", "125", "126", "127",
+                         "129"]
+
+

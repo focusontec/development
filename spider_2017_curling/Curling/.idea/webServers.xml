@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="82258676-d6d4-48d8-ba2f-121bb7f3502b" name="CENT_OS_AG" url="http://59.110.45.58">
+        <fileTransfer host="59.110.45.58" port="22" rootFolder="/zzc" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="4b79ea6f-5af8-4ad8-9597-6939b4e9eee7" name="hk_server" url="http://47.91.216.106">
+        <fileTransfer host="47.91.216.106" port="22" rootFolder="/home/zzc" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

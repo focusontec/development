@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a42c6ec5-e97e-4377-ba8a-7e21ac4871ee" name="HK_AG" url="http://47.91.216.106">
+        <fileTransfer host="47.91.216.106" port="22" rootFolder="/home/zzc" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

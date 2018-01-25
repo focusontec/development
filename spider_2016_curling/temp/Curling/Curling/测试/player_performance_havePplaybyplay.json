@@ -1,0 +1,424 @@
+{
+  "EVENTCODE": "WUNI2017P",
+  "GAME": {
+    "sheet_name": "E",
+    "formattedDate": "Mon 30th January",
+    "formattedTime": "7:00pm",
+    "status": "Finished",
+    "draw_name": "Women's Teams",
+    "started": 0,
+    "confirmed": 0,
+    "game_type": "Round-Robin",
+    "videoCode": null,
+    "hammer": "2",
+    "shake": "8"
+  },
+  "HOME": {
+    "team_id": "509",
+    "totalscore": "10",
+    "color": "D90000",
+    "abbr": "gbr",
+    "teamname": "United Kingdom",
+    "PLAY_BY_PLAY": [
+      [
+        {
+          "MSG": "Start"
+        }
+      ]
+    ],
+    "ENDS": [
+      {
+        "score": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "4",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "1",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "2",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "3",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "X",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "X",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "X",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": ""
+      },
+      {
+        "score": ""
+      }
+    ],
+    "dsc": "216.0",
+    "dc": "D90000",
+    "PPLAY_BY_PLAY": [
+      [
+        {
+          "MSG": "Start"
+        }
+      ]
+    ],
+    "LINEUP": [
+      {
+        "TEAMID": "509",
+        "ID": "2588",
+        "POSITION": "4",
+        "ROLE": "S",
+        "LASTNAME": "Aitken",
+        "FIRSTNAME": "Gina",
+        "DISPLAYNAME": "Gina AITKEN",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "",
+          "drawNum": "",
+          "drawPercent": "",
+          "takeoutNum": "",
+          "takeoutPercent": "",
+          "cwNum": "",
+          "cwPercent": "",
+          "ccwNum": "",
+          "ccwPercent": ""
+        }
+      },
+      {
+        "TEAMID": "509",
+        "ID": "2591",
+        "POSITION": "3",
+        "ROLE": "V",
+        "LASTNAME": "Kerr",
+        "FIRSTNAME": "Rowena",
+        "DISPLAYNAME": "Rowena KERR",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "",
+          "drawNum": "",
+          "drawPercent": "",
+          "takeoutNum": "",
+          "takeoutPercent": "",
+          "cwNum": "",
+          "cwPercent": "",
+          "ccwNum": "",
+          "ccwPercent": ""
+        }
+      },
+      {
+        "TEAMID": "509",
+        "ID": "2589",
+        "POSITION": "2",
+        "ROLE": "",
+        "LASTNAME": "Halliday",
+        "FIRSTNAME": "Rachael",
+        "DISPLAYNAME": "Rachael HALLIDAY",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "",
+          "drawNum": "",
+          "drawPercent": "",
+          "takeoutNum": "",
+          "takeoutPercent": "",
+          "cwNum": "",
+          "cwPercent": "",
+          "ccwNum": "",
+          "ccwPercent": ""
+        }
+      },
+      {
+        "TEAMID": "509",
+        "ID": "2590",
+        "POSITION": "1",
+        "ROLE": "",
+        "LASTNAME": "Hannen",
+        "FIRSTNAME": "Rachel",
+        "DISPLAYNAME": "Rachel HANNEN",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "",
+          "drawNum": "",
+          "drawPercent": "",
+          "takeoutNum": "",
+          "takeoutPercent": "",
+          "cwNum": "",
+          "cwPercent": "",
+          "ccwNum": "",
+          "ccwPercent": ""
+        }
+      },
+      {
+        "TEAMID": "509",
+        "ID": "2592",
+        "POSITION": "A",
+        "ROLE": "",
+        "LASTNAME": "Ward",
+        "FIRSTNAME": "Angharad",
+        "DISPLAYNAME": "Angharad WARD",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "",
+          "drawNum": "",
+          "drawPercent": "",
+          "takeoutNum": "",
+          "takeoutPercent": "",
+          "cwNum": "",
+          "cwPercent": "",
+          "ccwNum": "",
+          "ccwPercent": ""
+        }
+      },
+      {
+        "TEAMID": "509",
+        "ID": "2593",
+        "POSITION": "103",
+        "ROLE": "Coach",
+        "LASTNAME": "Milne",
+        "FIRSTNAME": "Mairi",
+        "DISPLAYNAME": "Mairi MILNE"
+      }
+    ]
+  },
+  "AWAY": {
+    "team_id": "511",
+    "totalscore": "4",
+    "color": "EABB00",
+    "abbr": "kaz",
+    "teamname": "Kazakhstan",
+    "PLAY_BY_PLAY": [
+      [
+        {
+          "MSG": "Start"
+        }
+      ]
+    ],
+    "ENDS": [
+      {
+        "score": ""
+      },
+      {
+        "score": "1",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "2",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "1",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "X",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "X",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "X",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": ""
+      },
+      {
+        "score": ""
+      }
+    ],
+    "dsc": "82.9",
+    "dc": "ECEC00",
+    "PPLAY_BY_PLAY": [
+      [
+        {
+          "MSG": "Start"
+        }
+      ]
+    ],
+    "LINEUP": [
+      {
+        "TEAMID": "511",
+        "ID": "2594",
+        "POSITION": "4",
+        "ROLE": "S",
+        "LASTNAME": "Yunicheva",
+        "FIRSTNAME": "Ramina",
+        "DISPLAYNAME": "Ramina YUNICHEVA",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "",
+          "drawNum": "",
+          "drawPercent": "",
+          "takeoutNum": "",
+          "takeoutPercent": "",
+          "cwNum": "",
+          "cwPercent": "",
+          "ccwNum": "",
+          "ccwPercent": ""
+        }
+      },
+      {
+        "TEAMID": "511",
+        "ID": "2595",
+        "POSITION": "3",
+        "ROLE": "V",
+        "LASTNAME": "Surgay",
+        "FIRSTNAME": "Anastassiya",
+        "DISPLAYNAME": "Anastassiya SURGAY",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "",
+          "drawNum": "",
+          "drawPercent": "",
+          "takeoutNum": "",
+          "takeoutPercent": "",
+          "cwNum": "",
+          "cwPercent": "",
+          "ccwNum": "",
+          "ccwPercent": ""
+        }
+      },
+      {
+        "TEAMID": "511",
+        "ID": "2596",
+        "POSITION": "2",
+        "ROLE": "",
+        "LASTNAME": "Bakanova",
+        "FIRSTNAME": "Kamila",
+        "DISPLAYNAME": "Kamila BAKANOVA",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "",
+          "drawNum": "",
+          "drawPercent": "",
+          "takeoutNum": "",
+          "takeoutPercent": "",
+          "cwNum": "",
+          "cwPercent": "",
+          "ccwNum": "",
+          "ccwPercent": ""
+        }
+      },
+      {
+        "TEAMID": "511",
+        "ID": "2597",
+        "POSITION": "1",
+        "ROLE": "",
+        "LASTNAME": "Alliyarova",
+        "FIRSTNAME": "Sitora",
+        "DISPLAYNAME": "Sitora ALLIYAROVA",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "",
+          "drawNum": "",
+          "drawPercent": "",
+          "takeoutNum": "",
+          "takeoutPercent": "",
+          "cwNum": "",
+          "cwPercent": "",
+          "ccwNum": "",
+          "ccwPercent": ""
+        }
+      },
+      {
+        "TEAMID": "511",
+        "ID": "2598",
+        "POSITION": "A",
+        "ROLE": "",
+        "LASTNAME": "Kakharova",
+        "FIRSTNAME": "Zarina",
+        "DISPLAYNAME": "Zarina KAKHAROVA",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "",
+          "drawNum": "",
+          "drawPercent": "",
+          "takeoutNum": "",
+          "takeoutPercent": "",
+          "cwNum": "",
+          "cwPercent": "",
+          "ccwNum": "",
+          "ccwPercent": ""
+        }
+      },
+      {
+        "TEAMID": "511",
+        "ID": "2599",
+        "POSITION": "103",
+        "ROLE": "Coach",
+        "LASTNAME": "Ten",
+        "FIRSTNAME": "Olga",
+        "DISPLAYNAME": "Olga TEN"
+      }
+    ]
+  },
+  "MESSAGES": {
+    "PLAY_BY_PLAY": {
+      "Message": "No PBP data"
+    },
+    "PPLAY_BY_PLAY": {
+      "Message": "No PBP data"
+    }
+  }
+}

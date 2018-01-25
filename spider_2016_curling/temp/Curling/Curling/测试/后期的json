@@ -1,0 +1,426 @@
+{
+    "EVENTCODE": "WUNI2017P",
+    "GAME": {
+        "sheet_name": "E",
+        "formattedDate": "Wed 1st February",
+        "formattedTime": "2:00pm",
+        "selector": "M-28-0",
+        "gameSession": "4",
+        "status": "Finished",
+        "draw_name": "Men's Teams",
+        "divisionName": "Teams",
+        "started": 0,
+        "confirmed": 0,
+        "game_type": "Round-Robin",
+        "videoCode": null,
+        "hammer": "1"
+    },
+    "HOME": {
+        "team_id": "518",
+        "totalscore": "6",
+        "color": "D90000",
+        "abbr": "USA",
+        "teamname": "United States of America",
+        "PLAY_BY_PLAY": [
+            [
+                {
+                    "MSG": "Start"
+                }
+            ]
+        ],
+        "ENDS": [
+            {
+                "score": ""
+            },
+            {
+                "score": "0",
+                "hammer": "1",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "1",
+                "time": ""
+            },
+            {
+                "score": "1",
+                "hammer": "1",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "0",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "0",
+                "time": ""
+            },
+            {
+                "score": "2",
+                "hammer": "1",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "0",
+                "time": ""
+            },
+            {
+                "score": "2",
+                "hammer": "1",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "0",
+                "time": ""
+            },
+            {
+                "score": "1",
+                "hammer": "0",
+                "time": ""
+            },
+            {
+                "score": ""
+            },
+            {
+                "score": ""
+            }
+        ],
+        "dsc": "72.3",
+        "dc": "D90000",
+        "PPLAY_BY_PLAY": [
+            [
+                {
+                    "MSG": "Start"
+                }
+            ]
+        ],
+        "LINEUP": [
+            {
+                "TEAMID": "518",
+                "ID": "2514",
+                "POSITION": "4",
+                "ROLE": "S",
+                "LASTNAME": "Leichter",
+                "FIRSTNAME": "Alex",
+                "DISPLAYNAME": "Alex LEICHTER",
+                "PSTATS": {
+                    "gameNum": "0",
+                    "gamePercent": "",
+                    "drawNum": "",
+                    "drawPercent": "",
+                    "takeoutNum": "",
+                    "takeoutPercent": "",
+                    "cwNum": "",
+                    "cwPercent": "",
+                    "ccwNum": "",
+                    "ccwPercent": ""
+                }
+            },
+            {
+                "TEAMID": "518",
+                "ID": "2517",
+                "POSITION": "3",
+                "ROLE": "V",
+                "LASTNAME": "Clark",
+                "FIRSTNAME": "Nate",
+                "DISPLAYNAME": "Nate CLARK",
+                "PSTATS": {
+                    "gameNum": "0",
+                    "gamePercent": "",
+                    "drawNum": "",
+                    "drawPercent": "",
+                    "takeoutNum": "",
+                    "takeoutPercent": "",
+                    "cwNum": "",
+                    "cwPercent": "",
+                    "ccwNum": "",
+                    "ccwPercent": ""
+                }
+            },
+            {
+                "TEAMID": "518",
+                "ID": "2516",
+                "POSITION": "2",
+                "ROLE": "",
+                "LASTNAME": "Bond",
+                "FIRSTNAME": "Chris",
+                "DISPLAYNAME": "Chris BOND",
+                "PSTATS": {
+                    "gameNum": "0",
+                    "gamePercent": "",
+                    "drawNum": "",
+                    "drawPercent": "",
+                    "takeoutNum": "",
+                    "takeoutPercent": "",
+                    "cwNum": "",
+                    "cwPercent": "",
+                    "ccwNum": "",
+                    "ccwPercent": ""
+                }
+            },
+            {
+                "TEAMID": "518",
+                "ID": "2515",
+                "POSITION": "1",
+                "ROLE": "",
+                "LASTNAME": "Weber",
+                "FIRSTNAME": "Calvin",
+                "DISPLAYNAME": "Calvin WEBER",
+                "PSTATS": {
+                    "gameNum": "0",
+                    "gamePercent": "",
+                    "drawNum": "",
+                    "drawPercent": "",
+                    "takeoutNum": "",
+                    "takeoutPercent": "",
+                    "cwNum": "",
+                    "cwPercent": "",
+                    "ccwNum": "",
+                    "ccwPercent": ""
+                }
+            },
+            {
+                "TEAMID": "518",
+                "ID": "2518",
+                "POSITION": "A",
+                "ROLE": "",
+                "LASTNAME": "Stopera",
+                "FIRSTNAME": "Andrew",
+                "DISPLAYNAME": "Andrew STOPERA",
+                "PSTATS": {
+                    "gameNum": "0",
+                    "gamePercent": "",
+                    "drawNum": "",
+                    "drawPercent": "",
+                    "takeoutNum": "",
+                    "takeoutPercent": "",
+                    "cwNum": "",
+                    "cwPercent": "",
+                    "ccwNum": "",
+                    "ccwPercent": ""
+                }
+            },
+            {
+                "TEAMID": "518",
+                "ID": "2519",
+                "POSITION": "103",
+                "ROLE": "Coach",
+                "LASTNAME": "Leichter",
+                "FIRSTNAME": "Frederick",
+                "DISPLAYNAME": "Frederick LEICHTER"
+            }
+        ]
+    },
+    "AWAY": {
+        "team_id": "519",
+        "totalscore": "4",
+        "color": "EABB00",
+        "abbr": "CAN",
+        "teamname": "Canada",
+        "PLAY_BY_PLAY": [
+            [
+                {
+                    "MSG": "Start"
+                }
+            ]
+        ],
+        "ENDS": [
+            {
+                "score": ""
+            },
+            {
+                "score": "0",
+                "hammer": "0",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "0",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "0",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "1",
+                "time": ""
+            },
+            {
+                "score": "2",
+                "hammer": "1",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "0",
+                "time": ""
+            },
+            {
+                "score": "2",
+                "hammer": "1",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "0",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "1",
+                "time": ""
+            },
+            {
+                "score": "0",
+                "hammer": "1",
+                "time": ""
+            },
+            {
+                "score": ""
+            },
+            {
+                "score": ""
+            }
+        ],
+        "dsc": "74.3",
+        "dc": "ECEC00",
+        "PPLAY_BY_PLAY": [
+            [
+                {
+                    "MSG": "Start"
+                }
+            ]
+        ],
+        "LINEUP": [
+            {
+                "TEAMID": "519",
+                "ID": "2492",
+                "POSITION": "4",
+                "ROLE": "S",
+                "LASTNAME": "Squires",
+                "FIRSTNAME": "Aaron",
+                "DISPLAYNAME": "Aaron SQUIRES",
+                "PSTATS": {
+                    "gameNum": "0",
+                    "gamePercent": "",
+                    "drawNum": "",
+                    "drawPercent": "",
+                    "takeoutNum": "",
+                    "takeoutPercent": "",
+                    "cwNum": "",
+                    "cwPercent": "",
+                    "ccwNum": "",
+                    "ccwPercent": ""
+                }
+            },
+            {
+                "TEAMID": "519",
+                "ID": "2493",
+                "POSITION": "3",
+                "ROLE": "V",
+                "LASTNAME": "Krell",
+                "FIRSTNAME": "Richard",
+                "DISPLAYNAME": "Richard KRELL",
+                "PSTATS": {
+                    "gameNum": "0",
+                    "gamePercent": "",
+                    "drawNum": "",
+                    "drawPercent": "",
+                    "takeoutNum": "",
+                    "takeoutPercent": "",
+                    "cwNum": "",
+                    "cwPercent": "",
+                    "ccwNum": "",
+                    "ccwPercent": ""
+                }
+            },
+            {
+                "TEAMID": "519",
+                "ID": "2494",
+                "POSITION": "2",
+                "ROLE": "",
+                "LASTNAME": "Nuttall",
+                "FIRSTNAME": "Spencer",
+                "DISPLAYNAME": "Spencer NUTTALL",
+                "PSTATS": {
+                    "gameNum": "0",
+                    "gamePercent": "",
+                    "drawNum": "",
+                    "drawPercent": "",
+                    "takeoutNum": "",
+                    "takeoutPercent": "",
+                    "cwNum": "",
+                    "cwPercent": "",
+                    "ccwNum": "",
+                    "ccwPercent": ""
+                }
+            },
+            {
+                "TEAMID": "519",
+                "ID": "2495",
+                "POSITION": "1",
+                "ROLE": "",
+                "LASTNAME": "Reid",
+                "FIRSTNAME": "Fraser",
+                "DISPLAYNAME": "Fraser REID",
+                "PSTATS": {
+                    "gameNum": "0",
+                    "gamePercent": "",
+                    "drawNum": "",
+                    "drawPercent": "",
+                    "takeoutNum": "",
+                    "takeoutPercent": "",
+                    "cwNum": "",
+                    "cwPercent": "",
+                    "ccwNum": "",
+                    "ccwPercent": ""
+                }
+            },
+            {
+                "TEAMID": "519",
+                "ID": "2496",
+                "POSITION": "A",
+                "ROLE": "",
+                "LASTNAME": "Cuddie",
+                "FIRSTNAME": "Russell",
+                "DISPLAYNAME": "Russell CUDDIE",
+                "PSTATS": {
+                    "gameNum": "0",
+                    "gamePercent": "",
+                    "drawNum": "",
+                    "drawPercent": "",
+                    "takeoutNum": "",
+                    "takeoutPercent": "",
+                    "cwNum": "",
+                    "cwPercent": "",
+                    "ccwNum": "",
+                    "ccwPercent": ""
+                }
+            },
+            {
+                "TEAMID": "519",
+                "ID": "2497",
+                "POSITION": "103",
+                "ROLE": "Coach",
+                "LASTNAME": "Waite",
+                "FIRSTNAME": "Jim",
+                "DISPLAYNAME": "Jim WAITE"
+            }
+        ]
+    },
+    "MESSAGES": {
+        "PLAY_BY_PLAY": {
+            "Message": "No PBP data"
+        },
+        "PPLAY_BY_PLAY": {
+            "Message": "No PBP data"
+        }
+    }
+}

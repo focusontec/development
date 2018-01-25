@@ -1,0 +1,3022 @@
+{
+  "EVENTCODE": "CUR_WWhCC2017P",
+  "GAME": {
+    "sheet_name": "B",
+    "formattedDate": "Sat 11th March",
+    "formattedTime": "3:00pm",
+    "selector": "X-33-0",
+    "gameSession": "1",
+    "status": "Finished",
+    "draw_name": "Mixed Teams",
+    "divisionName": "Teams",
+    "started": 0,
+    "confirmed": 0,
+    "game_type": "Final",
+    "videoCode": null,
+    "hammer": "2",
+    "shake": "8"
+  },
+  "HOME": {
+    "team_id": "573",
+    "totalscore": "3",
+    "color": "D90000",
+    "abbr": "RUS",
+    "teamname": "Russia",
+    "PLAY_BY_PLAY": [
+      [
+        {
+          "MSG": "Start"
+        }
+      ]
+    ],
+    "ENDS": [
+      {
+        "score": "",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "2",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "1",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "X",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": ""
+      },
+      {
+        "score": ""
+      },
+      {
+        "score": ""
+      },
+      {
+        "score": ""
+      }
+    ],
+    "dsc": "",
+    "dc": "D90000",
+    "PPLAY_BY_PLAY": [
+      [
+        {
+          "MSG": "Start"
+        }
+      ],
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "1-1"
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "1-3"
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "1-5"
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "1-7"
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "1-9"
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "1-11"
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Guard",
+            "HANDLE": "CCW",
+            "POINTS": "25%",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "1-13"
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "1-15"
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "2-1"
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "2-3"
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "2-5"
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "2-7"
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "2-9"
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "2-11"
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "2-13"
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "2-15"
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Front",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "3-1"
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "3-3"
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "3-5"
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Hit and Roll",
+            "HANDLE": "CCW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "3-7"
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "3-9"
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "3-11"
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "3-13"
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "3-15"
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "4-1"
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "4-3"
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "4-5"
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "4-7"
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "4-9"
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "4-11"
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "4-13"
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "4-15"
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "5-1"
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "5-3"
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "5-5"
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Hit and Roll",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "5-7"
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Hit and Roll",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "5-9"
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "5-11"
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "5-13"
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Hit and Roll",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "5-15"
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "6-1"
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "6-3"
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Clearing",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "6-5"
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "6-7"
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "6-9"
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "6-11"
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Clearing",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "6-13"
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "6-15"
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Front",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "7-1"
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Front",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "7-3"
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Raise",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "7-5"
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Raise",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "7-7"
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Double Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "7-9"
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Double Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "7-11"
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "7-13"
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Hit and Roll",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "7-15"
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Through",
+            "HANDLE": "",
+            "POINTS": "Not Considered",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "8-1"
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Through",
+            "HANDLE": "",
+            "POINTS": "Not Considered",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "8-3"
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Clearing",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "8-5"
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Clearing",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "8-7"
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Clearing",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "8-9"
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "8-11"
+          },
+          "12": {
+            "SN": 12
+          },
+          "13": {
+            "SN": 13
+          },
+          "14": {
+            "SN": 14
+          },
+          "15": {
+            "SN": 15
+          },
+          "16": {
+            "SN": 16
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      }
+    ],
+    "LINEUP": [
+      {
+        "TEAMID": "573",
+        "ID": "2981",
+        "POSITION": "4",
+        "ROLE": "S",
+        "LASTNAME": "Smirnov",
+        "FIRSTNAME": "Andrey",
+        "DISPLAYNAME": "Andrey SMIRNOV",
+        "PSTATS": {
+          "gameNum": "14",
+          "gamePercent": "46",
+          "drawNum": "8",
+          "drawPercent": "44",
+          "takeoutNum": "6",
+          "takeoutPercent": "50",
+          "cwNum": "10",
+          "cwPercent": "50",
+          "ccwNum": "4",
+          "ccwPercent": "38"
+        }
+      },
+      {
+        "TEAMID": "573",
+        "ID": "2977",
+        "POSITION": "3",
+        "ROLE": "V",
+        "LASTNAME": "Kurokhtin",
+        "FIRSTNAME": "Konstantin",
+        "DISPLAYNAME": "Konstantin KUROKHTIN",
+        "PSTATS": {
+          "gameNum": "15",
+          "gamePercent": "67",
+          "drawNum": "9",
+          "drawPercent": "50",
+          "takeoutNum": "6",
+          "takeoutPercent": "92",
+          "cwNum": "10",
+          "cwPercent": "65",
+          "ccwNum": "5",
+          "ccwPercent": "70"
+        }
+      },
+      {
+        "TEAMID": "573",
+        "ID": "2980",
+        "POSITION": "2",
+        "ROLE": "",
+        "LASTNAME": "Shevchenko",
+        "FIRSTNAME": "Alexander",
+        "DISPLAYNAME": "Alexander SHEVCHENKO",
+        "PSTATS": {
+          "gameNum": "16",
+          "gamePercent": "47",
+          "drawNum": "12",
+          "drawPercent": "33",
+          "takeoutNum": "4",
+          "takeoutPercent": "88",
+          "cwNum": "8",
+          "cwPercent": "38",
+          "ccwNum": "8",
+          "ccwPercent": "56"
+        }
+      },
+      {
+        "TEAMID": "573",
+        "ID": "2979",
+        "POSITION": "1",
+        "ROLE": "",
+        "LASTNAME": "Shchukina",
+        "FIRSTNAME": "Daria",
+        "DISPLAYNAME": "Daria SHCHUKINA",
+        "PSTATS": {
+          "gameNum": "16",
+          "gamePercent": "78",
+          "drawNum": "14",
+          "drawPercent": "82",
+          "takeoutNum": "2",
+          "takeoutPercent": "50",
+          "cwNum": "12",
+          "cwPercent": "75",
+          "ccwNum": "4",
+          "ccwPercent": "88"
+        }
+      },
+      {
+        "TEAMID": "573",
+        "ID": "2978",
+        "POSITION": "A",
+        "ROLE": "",
+        "LASTNAME": "Romanov",
+        "FIRSTNAME": "Marat",
+        "DISPLAYNAME": "Marat ROMANOV",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "-",
+          "drawNum": "0",
+          "drawPercent": "-",
+          "takeoutNum": "0",
+          "takeoutPercent": "-",
+          "cwNum": "0",
+          "cwPercent": "-",
+          "ccwNum": "0",
+          "ccwPercent": "-"
+        }
+      },
+      {
+        "TEAMID": "573",
+        "ID": "2982",
+        "POSITION": "103",
+        "ROLE": "Coach",
+        "LASTNAME": "Batugin",
+        "FIRSTNAME": "Anton",
+        "DISPLAYNAME": "Anton BATUGIN"
+      }
+    ]
+  },
+  "AWAY": {
+    "team_id": "572",
+    "totalscore": "8",
+    "color": "EABB00",
+    "abbr": "NOR",
+    "teamname": "Norway",
+    "PLAY_BY_PLAY": [
+      [
+        {
+          "MSG": "Start"
+        }
+      ]
+    ],
+    "ENDS": [
+      {
+        "score": "",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "1",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "2",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "3",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "0",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": "2",
+        "hammer": "1",
+        "time": ""
+      },
+      {
+        "score": "X",
+        "hammer": "0",
+        "time": ""
+      },
+      {
+        "score": ""
+      },
+      {
+        "score": ""
+      },
+      {
+        "score": ""
+      },
+      {
+        "score": ""
+      }
+    ],
+    "dsc": "",
+    "dc": "ECEC00",
+    "PPLAY_BY_PLAY": [
+      [
+        {
+          "MSG": "Start"
+        }
+      ],
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "1-2"
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "1-4"
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "1-6"
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "1-8"
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "1-10"
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Double Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "1-12"
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Hit and Roll",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "1-14"
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "1-16"
+          },
+          "0": {
+            "FIRST": "N"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "2-2"
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "2-4"
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "2-6"
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Double Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "2-8"
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "2-10"
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "2-12"
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "2-14"
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Clearing",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "2-16"
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Front",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "3-2"
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "3-4"
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Raise",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "3-6"
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Double Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "3-8"
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "3-10"
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "3-12"
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "3-14"
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "3-16"
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "4-2"
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "4-4"
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "4-6"
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "4-8"
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "4-10"
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "4-12"
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "4-14"
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "4-16"
+          },
+          "0": {
+            "FIRST": "N"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "5-2"
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "5-4"
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "5-6"
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "5-8"
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "5-10"
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "5-12"
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "5-14"
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "5-16"
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Front",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "6-2"
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "6-4"
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "6-6"
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "6-8"
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "6-10"
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "6-12"
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "6-14"
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "Y",
+            "PLAYER": "2981",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Andrey SMIRNOV",
+            "ES": "6-16"
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "75%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "7-2"
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "Y",
+            "PLAYER": "2970",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Sissel LOECHEN",
+            "ES": "7-4"
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Guard",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "7-6"
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "Y",
+            "PLAYER": "2973",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Ole Fredrik SYVERSEN",
+            "ES": "7-8"
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "7-10"
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "12": {
+            "SN": 12,
+            "OWNER": "Y",
+            "PLAYER": "2972",
+            "TASK": "Take-out",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Jostein STORDAHL",
+            "ES": "7-12"
+          },
+          "13": {
+            "SN": 13,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "14": {
+            "SN": 14,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "7-14"
+          },
+          "15": {
+            "SN": 15,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "16": {
+            "SN": 16,
+            "OWNER": "Y",
+            "PLAYER": "2971",
+            "TASK": "Draw",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Rune LORENTSEN",
+            "ES": "7-16"
+          },
+          "0": {
+            "FIRST": "N"
+          }
+        }
+      },
+      {
+        "STONES": {
+          "1": {
+            "SN": 1,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "2": {
+            "SN": 2,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Front",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "8-2"
+          },
+          "3": {
+            "SN": 3,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "4": {
+            "SN": 4,
+            "OWNER": "Y",
+            "PLAYER": "2979",
+            "TASK": "Front",
+            "HANDLE": "CW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Daria SHCHUKINA",
+            "ES": "8-4"
+          },
+          "5": {
+            "SN": 5,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "6": {
+            "SN": 6,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Front",
+            "HANDLE": "CCW",
+            "POINTS": "100%",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "8-6"
+          },
+          "7": {
+            "SN": 7,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "8": {
+            "SN": 8,
+            "OWNER": "Y",
+            "PLAYER": "2980",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "50%",
+            "CURRENT": "",
+            "PLAYERNAME": "Alexander SHEVCHENKO",
+            "ES": "8-8"
+          },
+          "9": {
+            "SN": 9,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "10": {
+            "SN": 10,
+            "OWNER": "Y",
+            "PLAYER": "2977",
+            "TASK": "Draw",
+            "HANDLE": "CW",
+            "POINTS": "0",
+            "CURRENT": "",
+            "PLAYERNAME": "Konstantin KUROKHTIN",
+            "ES": "8-10"
+          },
+          "11": {
+            "SN": 11,
+            "OWNER": "N",
+            "PLAYER": "",
+            "TASK": "",
+            "HANDLE": "",
+            "POINTS": "",
+            "CURRENT": ""
+          },
+          "12": {
+            "SN": 12
+          },
+          "13": {
+            "SN": 13
+          },
+          "14": {
+            "SN": 14
+          },
+          "15": {
+            "SN": 15
+          },
+          "16": {
+            "SN": 16
+          },
+          "0": {
+            "FIRST": "Y"
+          }
+        }
+      }
+    ],
+    "LINEUP": [
+      {
+        "TEAMID": "572",
+        "ID": "2971",
+        "POSITION": "4",
+        "ROLE": "S",
+        "LASTNAME": "Lorentsen",
+        "FIRSTNAME": "Rune",
+        "DISPLAYNAME": "Rune LORENTSEN",
+        "PSTATS": {
+          "gameNum": "14",
+          "gamePercent": "75",
+          "drawNum": "6",
+          "drawPercent": "67",
+          "takeoutNum": "8",
+          "takeoutPercent": "81",
+          "cwNum": "6",
+          "cwPercent": "83",
+          "ccwNum": "8",
+          "ccwPercent": "69"
+        }
+      },
+      {
+        "TEAMID": "572",
+        "ID": "2972",
+        "POSITION": "3",
+        "ROLE": "V",
+        "LASTNAME": "Stordahl",
+        "FIRSTNAME": "Jostein",
+        "DISPLAYNAME": "Jostein STORDAHL",
+        "PSTATS": {
+          "gameNum": "16",
+          "gamePercent": "63",
+          "drawNum": "2",
+          "drawPercent": "25",
+          "takeoutNum": "14",
+          "takeoutPercent": "68",
+          "cwNum": "9",
+          "cwPercent": "67",
+          "ccwNum": "7",
+          "ccwPercent": "57"
+        }
+      },
+      {
+        "TEAMID": "572",
+        "ID": "2973",
+        "POSITION": "2",
+        "ROLE": "",
+        "LASTNAME": "Syversen",
+        "FIRSTNAME": "Ole Fredrik",
+        "DISPLAYNAME": "Ole Fredrik SYVERSEN",
+        "PSTATS": {
+          "gameNum": "16",
+          "gamePercent": "73",
+          "drawNum": "5",
+          "drawPercent": "90",
+          "takeoutNum": "11",
+          "takeoutPercent": "66",
+          "cwNum": "9",
+          "cwPercent": "78",
+          "ccwNum": "7",
+          "ccwPercent": "68"
+        }
+      },
+      {
+        "TEAMID": "572",
+        "ID": "2970",
+        "POSITION": "1",
+        "ROLE": "",
+        "LASTNAME": "Loechen",
+        "FIRSTNAME": "Sissel",
+        "DISPLAYNAME": "Sissel LOECHEN",
+        "PSTATS": {
+          "gameNum": "14",
+          "gamePercent": "57",
+          "drawNum": "10",
+          "drawPercent": "60",
+          "takeoutNum": "4",
+          "takeoutPercent": "50",
+          "cwNum": "11",
+          "cwPercent": "55",
+          "ccwNum": "3",
+          "ccwPercent": "67"
+        }
+      },
+      {
+        "TEAMID": "572",
+        "ID": "2969",
+        "POSITION": "A",
+        "ROLE": "",
+        "LASTNAME": "Iversen",
+        "FIRSTNAME": "Rikke",
+        "DISPLAYNAME": "Rikke IVERSEN",
+        "PSTATS": {
+          "gameNum": "0",
+          "gamePercent": "-",
+          "drawNum": "0",
+          "drawPercent": "-",
+          "takeoutNum": "0",
+          "takeoutPercent": "-",
+          "cwNum": "0",
+          "cwPercent": "-",
+          "ccwNum": "0",
+          "ccwPercent": "-"
+        }
+      },
+      {
+        "TEAMID": "572",
+        "ID": "2974",
+        "POSITION": "103",
+        "ROLE": "Coach",
+        "LASTNAME": "Dahlman",
+        "FIRSTNAME": "Peter",
+        "DISPLAYNAME": "Peter DAHLMAN"
+      }
+    ]
+  },
+  "MESSAGES": {
+    "PLAY_BY_PLAY": {
+      "Message": "No PBP data"
+    }
+  }
+}

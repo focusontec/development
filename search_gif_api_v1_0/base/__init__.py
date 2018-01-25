@@ -6,7 +6,7 @@ from base.tools import RegexConverter
 import logging
 from logging.handlers import RotatingFileHandler
 logger = logging.getLogger()
-
+import threadpool
 # 设置日志的记录等级
 logging.basicConfig(level=logging.INFO,format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',datefmt='%a, %d %b %Y %H:%M:%S')  # 调试debug级
 # 创建日志记录器，指明日志保存的路径、每个日志文件的最大大小、保存的日志文件个数上限
@@ -28,7 +28,6 @@ class CreateApp:
         # 为app添加api蓝图应用
         from api_1_0 import api as api_1_0_blueprint
         self.app.register_blueprint(api_1_0_blueprint, url_prefix="/api/v1.0")
-        sr = StrictRedis()
-        self.app.redis_con = sr
-        self.app.config
+        self.app.redis_con = StrictRedis()
+        self.app.pool = threadpool.ThreadPool(100)
         return self.app

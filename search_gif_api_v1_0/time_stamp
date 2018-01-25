@@ -13,3 +13,9 @@ update: 201801101428
 1801111815 修改：
     1.返回状态码，正确情况下为 0
     2.图片地址改为src
+
+
+20180124:
+使用threadingpool改写图片验证过程，
+思路： 绑定app.pool = threadpool.ThreadPool(100)
+要使用线程的时候从app.pool中取

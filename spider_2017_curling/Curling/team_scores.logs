@@ -1,0 +1,1675 @@
+2018-01-16 11:29:18 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: Curling)
+2018-01-16 11:29:18 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Curling.spiders', 'SPIDER_MODULES': ['Curling.spiders'], 'LOG_FILE': 'team_scores.logs', 'BOT_NAME': 'Curling'}
+2018-01-16 11:29:18 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-01-16 11:29:19 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'Curling.middlewares.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-01-16 11:29:19 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-01-16 11:29:19 [scrapy.middleware] INFO: Enabled item pipelines:
+['Curling.pipelines.PGStorePipeline', 'Curling.pipelines.JsonFilePipeline']
+2018-01-16 11:29:19 [scrapy.core.engine] INFO: Spider opened
+2018-01-16 11:29:19 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-01-16 11:29:19 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-01-16 11:29:20 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://www.worldcurling.org/> from <GET http://worldcurling.org/>
+2018-01-16 11:29:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.worldcurling.org/> (referer: None)
+2018-01-16 11:29:24 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.022/update:0.000/all:0.039
+2018-01-16 11:29:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.worldcurling.org/>
+None
+2018-01-16 11:29:24 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:27 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-1.html?_=1516073364461 HTTP/1.1" 200 0
+2018-01-16 11:29:27 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:30 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-2.html?_=1516073367230 HTTP/1.1" 200 0
+2018-01-16 11:29:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:33 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-3.html?_=1516073370722 HTTP/1.1" 200 0
+2018-01-16 11:29:33 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:33 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-4.html?_=1516073373370 HTTP/1.1" 200 0
+2018-01-16 11:29:33 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:37 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-5.html?_=1516073373874 HTTP/1.1" 200 0
+2018-01-16 11:29:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:37 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-6.html?_=1516073377381 HTTP/1.1" 200 0
+2018-01-16 11:29:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:41 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-7.html?_=1516073377892 HTTP/1.1" 200 0
+2018-01-16 11:29:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073370722> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:41 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:44 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-8.html?_=1516073381396 HTTP/1.1" 200 0
+2018-01-16 11:29:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073364461> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:47 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-9.html?_=1516073384892 HTTP/1.1" 200 0
+2018-01-16 11:29:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073373370> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073381396> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073367230> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073373874> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:47 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.024/insert:0.044/update:0.000/all:0.069
+2018-01-16 11:29:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073370722>
+None
+2018-01-16 11:29:47 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:48 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-10.html?_=1516073387738 HTTP/1.1" 200 0
+2018-01-16 11:29:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073377381> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:48 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.021/insert:0.020/update:0.000/all:0.041
+2018-01-16 11:29:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073370722>
+None
+2018-01-16 11:29:48 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.025/insert:0.018/update:0.000/all:0.043
+2018-01-16 11:29:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073364461>
+None
+2018-01-16 11:29:48 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:48 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-11.html?_=1516073388375 HTTP/1.1" 200 0
+2018-01-16 11:29:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516073387738> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:48 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.020/insert:0.019/update:0.000/all:0.039
+2018-01-16 11:29:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073370722>
+None
+2018-01-16 11:29:48 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.025/update:0.000/all:0.042
+2018-01-16 11:29:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073364461>
+None
+2018-01-16 11:29:48 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.023/update:0.000/all:0.041
+2018-01-16 11:29:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073373370>
+None
+2018-01-16 11:29:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.017/update:0.000/all:0.034
+2018-01-16 11:29:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073381396>
+None
+2018-01-16 11:29:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.020/insert:0.017/update:0.000/all:0.037
+2018-01-16 11:29:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073367230>
+None
+2018-01-16 11:29:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.023/insert:0.017/update:0.000/all:0.040
+2018-01-16 11:29:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073373874>
+None
+2018-01-16 11:29:49 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:49 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-12.html?_=1516073389105 HTTP/1.1" 200 0
+2018-01-16 11:29:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073377892> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516073388375> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.031/update:0.000/all:0.050
+2018-01-16 11:29:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073370722>
+None
+2018-01-16 11:29:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.015/insert:0.016/update:0.000/all:0.031
+2018-01-16 11:29:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073364461>
+None
+2018-01-16 11:29:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.015/insert:0.015/update:0.000/all:0.030
+2018-01-16 11:29:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073373370>
+None
+2018-01-16 11:29:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.016/insert:0.020/update:0.000/all:0.036
+2018-01-16 11:29:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073381396>
+None
+2018-01-16 11:29:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.016/update:0.000/all:0.035
+2018-01-16 11:29:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073367230>
+None
+2018-01-16 11:29:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.015/insert:0.021/update:0.000/all:0.036
+2018-01-16 11:29:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073377381>
+None
+2018-01-16 11:29:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.030/insert:0.021/update:0.000/all:0.050
+2018-01-16 11:29:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073373874>
+None
+2018-01-16 11:29:49 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:50 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-13.html?_=1516073389869 HTTP/1.1" 200 0
+2018-01-16 11:29:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516073389105> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.016/insert:0.028/update:0.000/all:0.044
+2018-01-16 11:29:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073370722>
+None
+2018-01-16 11:29:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.037/insert:0.022/update:0.000/all:0.059
+2018-01-16 11:29:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073364461>
+None
+2018-01-16 11:29:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.015/insert:0.017/update:0.000/all:0.033
+2018-01-16 11:29:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516073387738>
+None
+2018-01-16 11:29:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.021/insert:0.018/update:0.000/all:0.040
+2018-01-16 11:29:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073373370>
+None
+2018-01-16 11:29:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.020/insert:0.014/update:0.000/all:0.034
+2018-01-16 11:29:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073381396>
+None
+2018-01-16 11:29:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.021/insert:0.020/update:0.000/all:0.041
+2018-01-16 11:29:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073367230>
+None
+2018-01-16 11:29:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.023/insert:0.016/update:0.000/all:0.038
+2018-01-16 11:29:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073377381>
+None
+2018-01-16 11:29:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.016/update:0.000/all:0.035
+2018-01-16 11:29:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073373874>
+None
+2018-01-16 11:29:50 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:51 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-14.html?_=1516073390735 HTTP/1.1" 200 0
+2018-01-16 11:29:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516073389869> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.022/insert:0.023/update:0.000/all:0.045
+2018-01-16 11:29:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073364461>
+None
+2018-01-16 11:29:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.019/update:0.000/all:0.036
+2018-01-16 11:29:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516073387738>
+None
+2018-01-16 11:29:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.015/insert:0.015/update:0.000/all:0.030
+2018-01-16 11:29:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073377892>
+None
+2018-01-16 11:29:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.023/update:0.000/all:0.042
+2018-01-16 11:29:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516073388375>
+None
+2018-01-16 11:29:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.015/update:0.000/all:0.032
+2018-01-16 11:29:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073373370>
+None
+2018-01-16 11:29:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.024/update:0.000/all:0.041
+2018-01-16 11:29:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073381396>
+None
+2018-01-16 11:29:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.023/insert:0.020/update:0.000/all:0.043
+2018-01-16 11:29:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073367230>
+None
+2018-01-16 11:29:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.019/update:0.000/all:0.036
+2018-01-16 11:29:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073377381>
+None
+2018-01-16 11:29:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.025/insert:0.020/update:0.000/all:0.045
+2018-01-16 11:29:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073373874>
+None
+2018-01-16 11:29:51 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:52 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-15.html?_=1516073391609 HTTP/1.1" 200 0
+2018-01-16 11:29:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516073390735> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.021/insert:0.021/update:0.000/all:0.043
+2018-01-16 11:29:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516073389105>
+None
+2018-01-16 11:29:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.016/insert:0.018/update:0.000/all:0.034
+2018-01-16 11:29:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516073387738>
+None
+2018-01-16 11:29:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.031/update:0.000/all:0.049
+2018-01-16 11:29:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073377892>
+None
+2018-01-16 11:29:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.015/update:0.000/all:0.033
+2018-01-16 11:29:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516073388375>
+None
+2018-01-16 11:29:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.025/insert:0.020/update:0.000/all:0.045
+2018-01-16 11:29:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073373370>
+None
+2018-01-16 11:29:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.022/insert:0.018/update:0.000/all:0.040
+2018-01-16 11:29:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073381396>
+None
+2018-01-16 11:29:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.018/update:0.000/all:0.036
+2018-01-16 11:29:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073367230>
+None
+2018-01-16 11:29:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.016/update:0.000/all:0.034
+2018-01-16 11:29:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073377381>
+None
+2018-01-16 11:29:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.016/update:0.000/all:0.035
+2018-01-16 11:29:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073373874>
+None
+2018-01-16 11:29:52 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:52 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-16.html?_=1516073392453 HTTP/1.1" 200 0
+2018-01-16 11:29:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516073391609> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.020/update:0.000/all:0.037
+2018-01-16 11:29:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516073389105>
+None
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.021/insert:0.034/update:0.000/all:0.055
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516073387738>
+None
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.017/update:0.000/all:0.036
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516073389869>
+None
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.015/insert:0.016/update:0.000/all:0.031
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073377892>
+None
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.021/insert:0.020/update:0.000/all:0.041
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516073388375>
+None
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.016/update:0.000/all:0.033
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073377381>
+None
+2018-01-16 11:29:53 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:53 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-17.html?_=1516073393187 HTTP/1.1" 200 0
+2018-01-16 11:29:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516073392453> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.018/update:0.000/all:0.035
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516073389105>
+None
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.030/update:0.000/all:0.047
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516073387738>
+None
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.023/insert:0.023/update:0.000/all:0.046
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516073389869>
+None
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.020/update:0.000/all:0.039
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516073390735>
+None
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.018/update:0.000/all:0.037
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073377892>
+None
+2018-01-16 11:29:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.019/update:0.000/all:0.038
+2018-01-16 11:29:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516073388375>
+None
+2018-01-16 11:29:53 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:54 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-18.html?_=1516073393942 HTTP/1.1" 200 0
+2018-01-16 11:29:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516073393187> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.024/insert:0.016/update:0.000/all:0.040
+2018-01-16 11:29:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516073389105>
+None
+2018-01-16 11:29:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.015/insert:0.015/update:0.000/all:0.030
+2018-01-16 11:29:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516073391609>
+None
+2018-01-16 11:29:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.019/update:0.000/all:0.036
+2018-01-16 11:29:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516073389869>
+None
+2018-01-16 11:29:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.035/insert:0.022/update:0.000/all:0.057
+2018-01-16 11:29:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516073390735>
+None
+2018-01-16 11:29:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.022/update:0.000/all:0.041
+2018-01-16 11:29:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073377892>
+None
+2018-01-16 11:29:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.027/insert:0.021/update:0.000/all:0.048
+2018-01-16 11:29:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516073388375>
+None
+2018-01-16 11:29:54 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:55 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-19.html?_=1516073394705 HTTP/1.1" 200 0
+2018-01-16 11:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516073393942> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.016/insert:0.016/update:0.000/all:0.032
+2018-01-16 11:29:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516073389105>
+None
+2018-01-16 11:29:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.020/insert:0.018/update:0.000/all:0.039
+2018-01-16 11:29:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516073391609>
+None
+2018-01-16 11:29:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.018/update:0.000/all:0.035
+2018-01-16 11:29:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516073392453>
+None
+2018-01-16 11:29:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.020/insert:0.021/update:0.000/all:0.042
+2018-01-16 11:29:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516073389869>
+None
+2018-01-16 11:29:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.021/insert:0.017/update:0.000/all:0.038
+2018-01-16 11:29:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516073390735>
+None
+2018-01-16 11:29:55 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:55 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-20.html?_=1516073395437 HTTP/1.1" 200 0
+2018-01-16 11:29:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-19.html?_=1516073394705> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.029/update:0.000/all:0.047
+2018-01-16 11:29:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516073391609>
+None
+2018-01-16 11:29:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.029/insert:0.018/update:0.000/all:0.047
+2018-01-16 11:29:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516073392453>
+None
+2018-01-16 11:29:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.022/insert:0.025/update:0.000/all:0.047
+2018-01-16 11:29:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516073393187>
+None
+2018-01-16 11:29:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.022/insert:0.023/update:0.000/all:0.045
+2018-01-16 11:29:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516073389869>
+None
+2018-01-16 11:29:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.020/insert:0.015/update:0.000/all:0.035
+2018-01-16 11:29:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516073390735>
+None
+2018-01-16 11:29:56 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:56 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-21.html?_=1516073396180 HTTP/1.1" 200 0
+2018-01-16 11:29:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-20.html?_=1516073395437> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.016/insert:0.016/update:0.000/all:0.032
+2018-01-16 11:29:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516073391609>
+None
+2018-01-16 11:29:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.016/update:0.000/all:0.035
+2018-01-16 11:29:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516073393942>
+None
+2018-01-16 11:29:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.015/insert:0.032/update:0.000/all:0.048
+2018-01-16 11:29:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516073392453>
+None
+2018-01-16 11:29:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.025/insert:0.018/update:0.000/all:0.043
+2018-01-16 11:29:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516073393187>
+None
+2018-01-16 11:29:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.030/update:0.000/all:0.048
+2018-01-16 11:29:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516073390735>
+None
+2018-01-16 11:29:56 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:57 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-22.html?_=1516073396881 HTTP/1.1" 200 0
+2018-01-16 11:29:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516073384892> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:57 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.026/insert:0.017/update:0.000/all:0.043
+2018-01-16 11:29:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516073391609>
+None
+2018-01-16 11:29:57 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.020/insert:0.020/update:0.000/all:0.040
+2018-01-16 11:29:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516073393942>
+None
+2018-01-16 11:29:57 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.017/update:0.000/all:0.037
+2018-01-16 11:29:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-19.html?_=1516073394705>
+None
+2018-01-16 11:29:57 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.031/insert:0.025/update:0.000/all:0.057
+2018-01-16 11:29:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516073392453>
+None
+2018-01-16 11:29:57 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.018/update:0.000/all:0.035
+2018-01-16 11:29:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516073393187>
+None
+2018-01-16 11:29:57 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:58 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-23.html?_=1516073397589 HTTP/1.1" 200 0
+2018-01-16 11:29:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-21.html?_=1516073396180> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-22.html?_=1516073396881> (referer: http://www.worldcurling.org/)
+2018-01-16 11:29:58 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.026/insert:0.017/update:0.000/all:0.043
+2018-01-16 11:29:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516073393942>
+None
+2018-01-16 11:29:58 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.016/update:0.000/all:0.036
+2018-01-16 11:29:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-20.html?_=1516073395437>
+None
+2018-01-16 11:29:58 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.015/insert:0.015/update:0.000/all:0.031
+2018-01-16 11:29:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516073392453>
+None
+2018-01-16 11:29:58 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.016/insert:0.025/update:0.000/all:0.041
+2018-01-16 11:29:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516073393187>
+None
+2018-01-16 11:29:58 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:29:59 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-24.html?_=1516073398260 HTTP/1.1" 404 0
+2018-01-16 11:34:51 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.worldcurling.org/> (referer: None)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\development\spider_project_from_1228\Curling\Curling\spiders\team_scores.py", line 73, in parse
+    print 'break----- %s-----%s------%s'%(score_api,status_code,type(status_code))
+IOError: [Errno 0] Error
+2018-01-16 11:34:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.021/insert:0.018/update:0.000/all:0.039
+2018-01-16 11:34:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516073393942>
+None
+2018-01-16 11:34:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.016/update:0.000/all:0.034
+2018-01-16 11:34:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516073384892>
+None
+2018-01-16 11:34:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.024/insert:0.019/update:0.000/all:0.043
+2018-01-16 11:34:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-20.html?_=1516073395437>
+None
+2018-01-16 11:34:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.016/insert:0.017/update:0.000/all:0.033
+2018-01-16 11:34:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516073393187>
+None
+2018-01-16 11:34:51 [scrapy.extensions.logstats] INFO: Crawled 23 pages (at 23 pages/min), scraped 89 items (at 89 items/min)
+2018-01-16 11:34:51 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-23.html?_=1516073397589> (failed 1 times): User timeout caused connection failure: Getting http://odf2.worldcurling.co/data/WUNI2017P/116-session-23.html?_=1516073397589 took longer than 180.0 seconds..
+2018-01-16 11:34:51 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-01-16 11:34:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.020/insert:0.028/update:0.000/all:0.047
+2018-01-16 11:34:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516073393942>
+None
+2018-01-16 11:34:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.029/update:0.000/all:0.045
+2018-01-16 11:34:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516073384892>
+None
+2018-01-16 11:34:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.019/insert:0.019/update:0.000/all:0.037
+2018-01-16 11:34:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-21.html?_=1516073396180>
+None
+2018-01-16 11:34:52 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-01-16 11:34:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.018/insert:0.016/update:0.000/all:0.034
+2018-01-16 11:34:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-20.html?_=1516073395437>
+None
+2018-01-16 11:34:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.017/insert:0.015/update:0.000/all:0.031
+2018-01-16 11:34:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-22.html?_=1516073396881>
+None
+2018-01-16 11:34:52 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-01-16 11:34:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.021/insert:0.016/update:0.000/all:0.037
+2018-01-16 11:34:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516073384892>
+None
+2018-01-16 11:34:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.016/insert:0.019/update:0.000/all:0.035
+2018-01-16 11:34:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-21.html?_=1516073396180>
+None
+2018-01-16 11:34:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.025/insert:0.024/update:0.000/all:0.049
+2018-01-16 11:34:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-20.html?_=1516073395437>
+None
+2018-01-16 11:36:01 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: Curling)
+2018-01-16 11:36:01 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Curling.spiders', 'SPIDER_MODULES': ['Curling.spiders'], 'LOG_FILE': 'team_scores.logs', 'BOT_NAME': 'Curling'}
+2018-01-16 11:36:01 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-01-16 11:36:01 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'Curling.middlewares.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-01-16 11:36:01 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-01-16 11:36:01 [scrapy.middleware] INFO: Enabled item pipelines:
+['Curling.pipelines.PGStorePipeline', 'Curling.pipelines.JsonFilePipeline']
+2018-01-16 11:36:01 [scrapy.core.engine] INFO: Spider opened
+2018-01-16 11:36:01 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-01-16 11:36:01 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6024
+2018-01-16 11:36:02 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://www.worldcurling.org/> from <GET http://worldcurling.org/>
+2018-01-16 11:36:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.worldcurling.org/> (referer: None)
+2018-01-16 11:36:06 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.000/update:0.098/all:0.188
+2018-01-16 11:36:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.worldcurling.org/>
+None
+2018-01-16 11:36:06 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:06 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-1.html?_=1516073766349 HTTP/1.1" 200 0
+2018-01-16 11:36:06 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:07 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-2.html?_=1516073766836 HTTP/1.1" 200 0
+2018-01-16 11:36:07 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:07 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-3.html?_=1516073767329 HTTP/1.1" 200 0
+2018-01-16 11:36:07 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:08 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-4.html?_=1516073767829 HTTP/1.1" 200 0
+2018-01-16 11:36:08 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:08 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-5.html?_=1516073768321 HTTP/1.1" 200 0
+2018-01-16 11:36:08 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:09 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-6.html?_=1516073768834 HTTP/1.1" 200 0
+2018-01-16 11:36:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073766836> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073766349> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:09 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:09 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-7.html?_=1516073769346 HTTP/1.1" 200 0
+2018-01-16 11:36:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073767329> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:09 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:10 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-8.html?_=1516073769859 HTTP/1.1" 200 0
+2018-01-16 11:36:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073768834> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:10 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.107/insert:0.000/update:0.100/all:0.208
+2018-01-16 11:36:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073766836>
+None
+2018-01-16 11:36:10 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.102/all:0.195
+2018-01-16 11:36:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073766349>
+None
+2018-01-16 11:36:10 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:11 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-9.html?_=1516073770782 HTTP/1.1" 200 0
+2018-01-16 11:36:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073768321> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073767829> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073769346> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:11 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.101/all:0.192
+2018-01-16 11:36:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073766836>
+None
+2018-01-16 11:36:11 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.102/insert:0.000/update:0.094/all:0.196
+2018-01-16 11:36:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073766349>
+None
+2018-01-16 11:36:11 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.091/all:0.185
+2018-01-16 11:36:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073767329>
+None
+2018-01-16 11:36:11 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:12 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-10.html?_=1516073771870 HTTP/1.1" 200 0
+2018-01-16 11:36:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073769859> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:12 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.102/all:0.193
+2018-01-16 11:36:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073768834>
+None
+2018-01-16 11:36:12 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.096/all:0.188
+2018-01-16 11:36:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073766836>
+None
+2018-01-16 11:36:12 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.101/all:0.192
+2018-01-16 11:36:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073766349>
+None
+2018-01-16 11:36:13 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.109/insert:0.000/update:0.091/all:0.200
+2018-01-16 11:36:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073767329>
+None
+2018-01-16 11:36:13 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:13 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-11.html?_=1516073773167 HTTP/1.1" 200 0
+2018-01-16 11:36:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516073770782> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:13 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.094/all:0.189
+2018-01-16 11:36:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073768834>
+None
+2018-01-16 11:36:14 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.000/update:0.094/all:0.190
+2018-01-16 11:36:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073768321>
+None
+2018-01-16 11:36:14 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.103/insert:0.000/update:0.102/all:0.205
+2018-01-16 11:36:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073767829>
+None
+2018-01-16 11:36:14 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.000/update:0.092/all:0.188
+2018-01-16 11:36:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073769346>
+None
+2018-01-16 11:36:14 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.092/all:0.187
+2018-01-16 11:36:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073766836>
+None
+2018-01-16 11:36:14 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.000/update:0.102/all:0.198
+2018-01-16 11:36:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073766349>
+None
+2018-01-16 11:36:15 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.092/all:0.186
+2018-01-16 11:36:15 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073767329>
+None
+2018-01-16 11:36:15 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:15 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-12.html?_=1516073775035 HTTP/1.1" 200 0
+2018-01-16 11:36:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516073771870> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:15 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.096/all:0.188
+2018-01-16 11:36:15 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073769859>
+None
+2018-01-16 11:36:15 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.101/insert:0.000/update:0.100/all:0.201
+2018-01-16 11:36:15 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073768834>
+None
+2018-01-16 11:36:16 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.091/all:0.182
+2018-01-16 11:36:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073768321>
+None
+2018-01-16 11:36:16 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.091/all:0.183
+2018-01-16 11:36:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073767829>
+None
+2018-01-16 11:36:16 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.100/insert:0.000/update:0.091/all:0.190
+2018-01-16 11:36:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073769346>
+None
+2018-01-16 11:36:16 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.093/all:0.184
+2018-01-16 11:36:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516073766836>
+None
+2018-01-16 11:36:16 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.091/all:0.185
+2018-01-16 11:36:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516073766349>
+None
+2018-01-16 11:36:17 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.104/all:0.195
+2018-01-16 11:36:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073767329>
+None
+2018-01-16 11:36:17 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:17 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-13.html?_=1516073777073 HTTP/1.1" 200 0
+2018-01-16 11:36:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516073773167> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:17 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.096/all:0.189
+2018-01-16 11:36:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073769859>
+None
+2018-01-16 11:36:18 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.144/insert:0.000/update:0.097/all:0.241
+2018-01-16 11:36:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516073770782>
+None
+2018-01-16 11:36:18 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.000/update:0.094/all:0.184
+2018-01-16 11:36:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073768834>
+None
+2018-01-16 11:36:18 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.205/insert:0.000/update:0.300/all:0.506
+2018-01-16 11:36:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073768321>
+None
+2018-01-16 11:36:19 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.301/insert:0.000/update:0.270/all:0.571
+2018-01-16 11:36:19 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073767829>
+None
+2018-01-16 11:36:19 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.197/insert:0.000/update:0.124/all:0.321
+2018-01-16 11:36:19 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073769346>
+None
+2018-01-16 11:36:20 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.309/insert:0.000/update:0.096/all:0.405
+2018-01-16 11:36:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516073767329>
+None
+2018-01-16 11:36:20 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:21 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-14.html?_=1516073780055 HTTP/1.1" 200 0
+2018-01-16 11:36:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516073777073> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516073775035> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:21 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.097/all:0.188
+2018-01-16 11:36:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516073771870>
+None
+2018-01-16 11:36:21 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.102/all:0.196
+2018-01-16 11:36:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073769859>
+None
+2018-01-16 11:36:21 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.093/all:0.188
+2018-01-16 11:36:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516073770782>
+None
+2018-01-16 11:36:22 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.099/insert:0.000/update:0.093/all:0.192
+2018-01-16 11:36:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516073768834>
+None
+2018-01-16 11:36:22 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.000/update:0.090/all:0.186
+2018-01-16 11:36:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073768321>
+None
+2018-01-16 11:36:22 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.000/update:0.108/all:0.198
+2018-01-16 11:36:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073767829>
+None
+2018-01-16 11:36:22 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.000/update:0.096/all:0.186
+2018-01-16 11:36:22 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073769346>
+None
+2018-01-16 11:36:22 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:25 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-01-16 11:36:26 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-01-16 11:36:26 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-15.html?_=1516073782673 HTTP/1.1" 200 0
+2018-01-16 11:36:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516073780055> (referer: http://www.worldcurling.org/)
+2018-01-16 11:36:26 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-01-16 11:36:26 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.334/all:0.425
+2018-01-16 11:36:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516073773167>
+None
+2018-01-16 11:36:26 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.094/all:0.188
+2018-01-16 11:36:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516073771870>
+None
+2018-01-16 11:36:26 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.102/insert:0.000/update:0.093/all:0.195
+2018-01-16 11:36:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516073769859>
+None
+2018-01-16 11:36:27 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.094/all:0.185
+2018-01-16 11:36:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516073770782>
+None
+2018-01-16 11:36:27 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.092/all:0.186
+2018-01-16 11:36:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516073768321>
+None
+2018-01-16 11:36:27 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.000/update:0.091/all:0.188
+2018-01-16 11:36:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516073767829>
+None
+2018-01-16 11:36:27 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.095/all:0.190
+2018-01-16 11:36:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516073769346>
+None
+2018-01-16 11:36:27 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 11:36:28 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-16.html?_=1516073787739 HTTP/1.1" 200 0
+2018-01-16 12:23:26 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: Curling)
+2018-01-16 12:23:26 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Curling.spiders', 'SPIDER_MODULES': ['Curling.spiders'], 'LOG_FILE': 'team_scores.logs', 'BOT_NAME': 'Curling'}
+2018-01-16 12:23:26 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2018-01-16 12:23:26 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'Curling.middlewares.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-01-16 12:23:26 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-01-16 12:23:28 [scrapy.middleware] INFO: Enabled item pipelines:
+['Curling.pipelines.PGStorePipeline', 'Curling.pipelines.JsonFilePipeline']
+2018-01-16 12:23:28 [scrapy.core.engine] INFO: Spider opened
+2018-01-16 12:23:28 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-01-16 12:23:28 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2018-01-16 12:23:28 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://www.worldcurling.org/> from <GET http://worldcurling.org/>
+2018-01-16 12:23:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.worldcurling.org/> (referer: None)
+2018-01-16 12:23:30 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.126/insert:0.000/update:0.154/all:0.280
+2018-01-16 12:23:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.worldcurling.org/>
+None
+2018-01-16 12:23:30 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:34 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-1.html?_=1516076610807 HTTP/1.1" 200 0
+2018-01-16 12:23:34 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:34 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-2.html?_=1516076614312 HTTP/1.1" 200 0
+2018-01-16 12:23:34 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:35 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-3.html?_=1516076614820 HTTP/1.1" 200 0
+2018-01-16 12:23:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:35 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-4.html?_=1516076615320 HTTP/1.1" 200 0
+2018-01-16 12:23:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:36 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-5.html?_=1516076615807 HTTP/1.1" 200 0
+2018-01-16 12:23:36 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:36 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-6.html?_=1516076616345 HTTP/1.1" 200 0
+2018-01-16 12:23:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516076614312> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516076610807> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:36 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:37 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-7.html?_=1516076616871 HTTP/1.1" 200 0
+2018-01-16 12:23:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516076614820> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:37 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-8.html?_=1516076617413 HTTP/1.1" 200 0
+2018-01-16 12:23:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516076616345> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:38 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.092/all:0.187
+2018-01-16 12:23:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516076614312>
+None
+2018-01-16 12:23:38 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.091/all:0.183
+2018-01-16 12:23:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516076610807>
+None
+2018-01-16 12:23:38 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:38 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-9.html?_=1516076618272 HTTP/1.1" 200 0
+2018-01-16 12:23:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516076615320> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516076616871> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516076615807> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:38 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.000/update:0.092/all:0.182
+2018-01-16 12:23:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516076614312>
+None
+2018-01-16 12:23:39 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.095/all:0.189
+2018-01-16 12:23:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516076610807>
+None
+2018-01-16 12:23:39 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.098/insert:0.000/update:0.110/all:0.208
+2018-01-16 12:23:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516076614820>
+None
+2018-01-16 12:23:39 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:39 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-10.html?_=1516076619348 HTTP/1.1" 200 0
+2018-01-16 12:23:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516076617413> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:40 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.114/insert:0.000/update:0.101/all:0.215
+2018-01-16 12:23:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516076616345>
+None
+2018-01-16 12:23:40 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.102/all:0.196
+2018-01-16 12:23:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516076614312>
+None
+2018-01-16 12:23:40 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.092/all:0.188
+2018-01-16 12:23:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516076610807>
+None
+2018-01-16 12:23:40 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.103/all:0.196
+2018-01-16 12:23:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516076614820>
+None
+2018-01-16 12:23:40 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:41 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-11.html?_=1516076620735 HTTP/1.1" 200 0
+2018-01-16 12:23:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516076618272> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:41 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.093/all:0.184
+2018-01-16 12:23:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516076616345>
+None
+2018-01-16 12:23:41 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.100/insert:0.000/update:0.094/all:0.194
+2018-01-16 12:23:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516076615320>
+None
+2018-01-16 12:23:41 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.102/insert:0.000/update:0.095/all:0.197
+2018-01-16 12:23:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516076616871>
+None
+2018-01-16 12:23:42 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.136/insert:0.000/update:0.119/all:0.255
+2018-01-16 12:23:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516076615807>
+None
+2018-01-16 12:23:42 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.104/insert:0.000/update:0.091/all:0.196
+2018-01-16 12:23:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516076614312>
+None
+2018-01-16 12:23:42 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.092/all:0.185
+2018-01-16 12:23:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516076610807>
+None
+2018-01-16 12:23:42 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.099/insert:0.000/update:0.096/all:0.195
+2018-01-16 12:23:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516076614820>
+None
+2018-01-16 12:23:42 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:43 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-12.html?_=1516076622656 HTTP/1.1" 200 0
+2018-01-16 12:23:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516076619348> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:43 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.178/all:0.272
+2018-01-16 12:23:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516076617413>
+None
+2018-01-16 12:23:43 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.103/insert:0.000/update:0.095/all:0.199
+2018-01-16 12:23:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516076616345>
+None
+2018-01-16 12:23:43 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.097/all:0.190
+2018-01-16 12:23:43 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516076615320>
+None
+2018-01-16 12:23:44 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.105/insert:0.000/update:0.098/all:0.203
+2018-01-16 12:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516076616871>
+None
+2018-01-16 12:23:44 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.103/insert:0.000/update:0.108/all:0.211
+2018-01-16 12:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516076615807>
+None
+2018-01-16 12:23:44 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.092/all:0.185
+2018-01-16 12:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-2.html?_=1516076614312>
+None
+2018-01-16 12:23:44 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.092/all:0.187
+2018-01-16 12:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-1.html?_=1516076610807>
+None
+2018-01-16 12:23:44 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.094/all:0.187
+2018-01-16 12:23:44 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516076614820>
+None
+2018-01-16 12:23:44 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:45 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-13.html?_=1516076624807 HTTP/1.1" 200 0
+2018-01-16 12:23:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516076620735> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:45 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.089/insert:0.000/update:0.097/all:0.186
+2018-01-16 12:23:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516076617413>
+None
+2018-01-16 12:23:45 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.091/all:0.183
+2018-01-16 12:23:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516076618272>
+None
+2018-01-16 12:23:45 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.094/all:0.185
+2018-01-16 12:23:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516076616345>
+None
+2018-01-16 12:23:46 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.097/all:0.190
+2018-01-16 12:23:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516076615320>
+None
+2018-01-16 12:23:46 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.092/all:0.183
+2018-01-16 12:23:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516076616871>
+None
+2018-01-16 12:23:46 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.102/all:0.195
+2018-01-16 12:23:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516076615807>
+None
+2018-01-16 12:23:46 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.102/all:0.193
+2018-01-16 12:23:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-3.html?_=1516076614820>
+None
+2018-01-16 12:23:46 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:47 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-14.html?_=1516076626684 HTTP/1.1" 200 0
+2018-01-16 12:23:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516076624807> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516076622656> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:47 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.091/all:0.182
+2018-01-16 12:23:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516076619348>
+None
+2018-01-16 12:23:47 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.092/all:0.183
+2018-01-16 12:23:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516076617413>
+None
+2018-01-16 12:23:47 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.093/all:0.186
+2018-01-16 12:23:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516076618272>
+None
+2018-01-16 12:23:47 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.100/all:0.194
+2018-01-16 12:23:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-6.html?_=1516076616345>
+None
+2018-01-16 12:23:48 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.093/all:0.187
+2018-01-16 12:23:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516076615320>
+None
+2018-01-16 12:23:48 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.091/all:0.183
+2018-01-16 12:23:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516076616871>
+None
+2018-01-16 12:23:48 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.000/update:0.106/all:0.202
+2018-01-16 12:23:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516076615807>
+None
+2018-01-16 12:23:48 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:48 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-15.html?_=1516076628509 HTTP/1.1" 200 0
+2018-01-16 12:23:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516076626684> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.103/all:0.198
+2018-01-16 12:23:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516076620735>
+None
+2018-01-16 12:23:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.103/insert:0.000/update:0.091/all:0.194
+2018-01-16 12:23:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516076619348>
+None
+2018-01-16 12:23:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.108/insert:0.000/update:0.165/all:0.273
+2018-01-16 12:23:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516076617413>
+None
+2018-01-16 12:23:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.154/insert:0.000/update:0.136/all:0.290
+2018-01-16 12:23:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516076618272>
+None
+2018-01-16 12:23:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.107/insert:0.000/update:0.116/all:0.224
+2018-01-16 12:23:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-4.html?_=1516076615320>
+None
+2018-01-16 12:23:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.102/insert:0.000/update:0.098/all:0.200
+2018-01-16 12:23:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-7.html?_=1516076616871>
+None
+2018-01-16 12:23:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.093/all:0.185
+2018-01-16 12:23:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-5.html?_=1516076615807>
+None
+2018-01-16 12:23:50 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:51 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-16.html?_=1516076630584 HTTP/1.1" 200 0
+2018-01-16 12:23:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516076628509> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.103/insert:0.000/update:0.144/all:0.247
+2018-01-16 12:23:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516076624807>
+None
+2018-01-16 12:23:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.127/insert:0.000/update:0.105/all:0.232
+2018-01-16 12:23:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516076622656>
+None
+2018-01-16 12:23:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.000/update:0.103/all:0.198
+2018-01-16 12:23:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516076620735>
+None
+2018-01-16 12:23:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.000/update:0.094/all:0.189
+2018-01-16 12:23:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516076619348>
+None
+2018-01-16 12:23:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.093/all:0.186
+2018-01-16 12:23:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-8.html?_=1516076617413>
+None
+2018-01-16 12:23:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.094/update:0.000/all:0.184
+2018-01-16 12:23:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516076618272>
+None
+2018-01-16 12:23:52 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:52 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-17.html?_=1516076632348 HTTP/1.1" 200 0
+2018-01-16 12:23:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516076630584> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.106/insert:0.000/update:0.098/all:0.203
+2018-01-16 12:23:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516076624807>
+None
+2018-01-16 12:23:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.101/insert:0.000/update:0.095/all:0.196
+2018-01-16 12:23:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516076622656>
+None
+2018-01-16 12:23:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.105/insert:0.000/update:0.094/all:0.199
+2018-01-16 12:23:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516076626684>
+None
+2018-01-16 12:23:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.120/all:0.213
+2018-01-16 12:23:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516076620735>
+None
+2018-01-16 12:23:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.000/update:0.108/all:0.198
+2018-01-16 12:23:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516076619348>
+None
+2018-01-16 12:23:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.112/insert:0.125/update:0.000/all:0.237
+2018-01-16 12:23:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-9.html?_=1516076618272>
+None
+2018-01-16 12:23:54 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:54 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-18.html?_=1516076634115 HTTP/1.1" 200 0
+2018-01-16 12:23:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516076632348> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.000/update:0.093/all:0.183
+2018-01-16 12:23:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516076628509>
+None
+2018-01-16 12:23:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.111/insert:0.000/update:0.099/all:0.210
+2018-01-16 12:23:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516076624807>
+None
+2018-01-16 12:23:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.000/update:0.095/all:0.188
+2018-01-16 12:23:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516076622656>
+None
+2018-01-16 12:23:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.096/all:0.188
+2018-01-16 12:23:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516076626684>
+None
+2018-01-16 12:23:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.102/insert:0.000/update:0.096/all:0.199
+2018-01-16 12:23:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516076620735>
+None
+2018-01-16 12:23:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.103/insert:0.000/update:0.093/all:0.196
+2018-01-16 12:23:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-10.html?_=1516076619348>
+None
+2018-01-16 12:23:55 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:56 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-19.html?_=1516076635789 HTTP/1.1" 200 0
+2018-01-16 12:23:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516076634115> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.107/insert:0.000/update:0.091/all:0.198
+2018-01-16 12:23:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516076628509>
+None
+2018-01-16 12:23:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.106/all:0.197
+2018-01-16 12:23:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516076630584>
+None
+2018-01-16 12:23:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.097/all:0.188
+2018-01-16 12:23:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516076624807>
+None
+2018-01-16 12:23:57 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.096/all:0.187
+2018-01-16 12:23:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516076622656>
+None
+2018-01-16 12:23:57 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.164/insert:0.000/update:0.108/all:0.272
+2018-01-16 12:23:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516076626684>
+None
+2018-01-16 12:23:57 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.119/insert:0.000/update:0.093/all:0.211
+2018-01-16 12:23:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-11.html?_=1516076620735>
+None
+2018-01-16 12:23:57 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:58 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-20.html?_=1516076637548 HTTP/1.1" 200 0
+2018-01-16 12:23:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-19.html?_=1516076635789> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:58 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.100/insert:0.000/update:0.092/all:0.191
+2018-01-16 12:23:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516076632348>
+None
+2018-01-16 12:23:58 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.000/update:0.099/all:0.196
+2018-01-16 12:23:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516076628509>
+None
+2018-01-16 12:23:58 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.000/update:0.105/all:0.196
+2018-01-16 12:23:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516076630584>
+None
+2018-01-16 12:23:58 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.121/insert:0.000/update:0.099/all:0.220
+2018-01-16 12:23:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-13.html?_=1516076624807>
+None
+2018-01-16 12:23:59 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.091/all:0.185
+2018-01-16 12:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-12.html?_=1516076622656>
+None
+2018-01-16 12:23:59 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.098/insert:0.000/update:0.103/all:0.200
+2018-01-16 12:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516076626684>
+None
+2018-01-16 12:23:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:23:59 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-21.html?_=1516076639245 HTTP/1.1" 200 0
+2018-01-16 12:23:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-20.html?_=1516076637548> (referer: http://www.worldcurling.org/)
+2018-01-16 12:23:59 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.090/all:0.181
+2018-01-16 12:23:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516076632348>
+None
+2018-01-16 12:24:00 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.167/insert:0.000/update:0.101/all:0.268
+2018-01-16 12:24:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516076634115>
+None
+2018-01-16 12:24:00 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.173/insert:0.000/update:0.097/all:0.270
+2018-01-16 12:24:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516076628509>
+None
+2018-01-16 12:24:00 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.119/insert:0.000/update:0.099/all:0.218
+2018-01-16 12:24:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516076630584>
+None
+2018-01-16 12:24:00 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.000/update:0.096/all:0.192
+2018-01-16 12:24:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-14.html?_=1516076626684>
+None
+2018-01-16 12:24:00 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:01 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-22.html?_=1516076640882 HTTP/1.1" 200 0
+2018-01-16 12:24:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-21.html?_=1516076639245> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:01 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.102/insert:0.000/update:0.100/all:0.202
+2018-01-16 12:24:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-19.html?_=1516076635789>
+None
+2018-01-16 12:24:01 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.130/insert:0.000/update:0.102/all:0.232
+2018-01-16 12:24:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516076632348>
+None
+2018-01-16 12:24:02 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.094/all:0.189
+2018-01-16 12:24:02 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516076634115>
+None
+2018-01-16 12:24:02 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.000/update:0.091/all:0.188
+2018-01-16 12:24:02 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-15.html?_=1516076628509>
+None
+2018-01-16 12:24:02 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.093/all:0.184
+2018-01-16 12:24:02 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516076630584>
+None
+2018-01-16 12:24:02 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:05 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-23.html?_=1516076642424 HTTP/1.1" 200 0
+2018-01-16 12:24:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-22.html?_=1516076640882> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:06 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.000/update:0.099/all:0.194
+2018-01-16 12:24:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-20.html?_=1516076637548>
+None
+2018-01-16 12:24:06 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.000/update:0.122/all:0.217
+2018-01-16 12:24:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516076632348>
+None
+2018-01-16 12:24:06 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.105/all:0.197
+2018-01-16 12:24:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516076634115>
+None
+2018-01-16 12:24:06 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.098/insert:0.000/update:0.114/all:0.212
+2018-01-16 12:24:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-16.html?_=1516076630584>
+None
+2018-01-16 12:24:06 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:07 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/WUNI2017P/116-session-24.html?_=1516076646774 HTTP/1.1" 404 0
+2018-01-16 12:24:07 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:07 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-1.html?_=1516076647303 HTTP/1.1" 200 0
+2018-01-16 12:24:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/WUNI2017P/116-session-23.html?_=1516076642424> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:07 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.000/update:0.092/all:0.183
+2018-01-16 12:24:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-21.html?_=1516076639245>
+None
+2018-01-16 12:24:08 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.092/all:0.184
+2018-01-16 12:24:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-20.html?_=1516076637548>
+None
+2018-01-16 12:24:08 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.121/all:0.215
+2018-01-16 12:24:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-17.html?_=1516076632348>
+None
+2018-01-16 12:24:08 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.092/all:0.185
+2018-01-16 12:24:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516076634115>
+None
+2018-01-16 12:24:08 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:09 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-2.html?_=1516076648566 HTTP/1.1" 200 0
+2018-01-16 12:24:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-1.html?_=1516076647303> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:09 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.113/insert:0.000/update:0.250/all:0.363
+2018-01-16 12:24:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-21.html?_=1516076639245>
+None
+2018-01-16 12:24:09 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.106/insert:0.000/update:0.091/all:0.197
+2018-01-16 12:24:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-22.html?_=1516076640882>
+None
+2018-01-16 12:24:09 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.000/update:0.095/all:0.187
+2018-01-16 12:24:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-20.html?_=1516076637548>
+None
+2018-01-16 12:24:10 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.106/insert:0.000/update:0.093/all:0.200
+2018-01-16 12:24:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-18.html?_=1516076634115>
+None
+2018-01-16 12:24:10 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:10 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-3.html?_=1516076650030 HTTP/1.1" 200 0
+2018-01-16 12:24:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-2.html?_=1516076648566> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:10 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.099/insert:0.093/update:0.000/all:0.192
+2018-01-16 12:24:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-23.html?_=1516076642424>
+None
+2018-01-16 12:24:10 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.000/update:0.092/all:0.185
+2018-01-16 12:24:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/WUNI2017P/116-session-20.html?_=1516076637548>
+None
+2018-01-16 12:24:10 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:11 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-4.html?_=1516076650928 HTTP/1.1" 200 0
+2018-01-16 12:24:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-3.html?_=1516076650030> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:11 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.102/insert:0.095/update:0.000/all:0.196
+2018-01-16 12:24:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-1.html?_=1516076647303>
+None
+2018-01-16 12:24:11 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:12 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-5.html?_=1516076651640 HTTP/1.1" 200 0
+2018-01-16 12:24:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-4.html?_=1516076650928> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:12 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.115/insert:0.247/update:0.000/all:0.362
+2018-01-16 12:24:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-2.html?_=1516076648566>
+None
+2018-01-16 12:24:12 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.217/insert:0.110/update:0.000/all:0.327
+2018-01-16 12:24:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-1.html?_=1516076647303>
+None
+2018-01-16 12:24:12 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:13 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-6.html?_=1516076652827 HTTP/1.1" 200 0
+2018-01-16 12:24:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-5.html?_=1516076651640> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:13 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.098/insert:0.102/update:0.000/all:0.200
+2018-01-16 12:24:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-2.html?_=1516076648566>
+None
+2018-01-16 12:24:13 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.107/update:0.000/all:0.200
+2018-01-16 12:24:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-3.html?_=1516076650030>
+None
+2018-01-16 12:24:13 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.101/insert:0.120/update:0.000/all:0.221
+2018-01-16 12:24:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-1.html?_=1516076647303>
+None
+2018-01-16 12:24:13 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:14 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-7.html?_=1516076653960 HTTP/1.1" 200 0
+2018-01-16 12:24:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-6.html?_=1516076652827> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:14 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.104/insert:0.111/update:0.000/all:0.215
+2018-01-16 12:24:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-4.html?_=1516076650928>
+None
+2018-01-16 12:24:14 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.094/update:0.000/all:0.189
+2018-01-16 12:24:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-2.html?_=1516076648566>
+None
+2018-01-16 12:24:15 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.105/update:0.000/all:0.199
+2018-01-16 12:24:15 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-3.html?_=1516076650030>
+None
+2018-01-16 12:24:15 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.091/update:0.000/all:0.184
+2018-01-16 12:24:15 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-1.html?_=1516076647303>
+None
+2018-01-16 12:24:15 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:15 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-8.html?_=1516076655250 HTTP/1.1" 200 0
+2018-01-16 12:24:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-7.html?_=1516076653960> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:15 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.100/insert:0.092/update:0.000/all:0.192
+2018-01-16 12:24:15 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-4.html?_=1516076650928>
+None
+2018-01-16 12:24:16 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.119/update:0.000/all:0.212
+2018-01-16 12:24:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-5.html?_=1516076651640>
+None
+2018-01-16 12:24:16 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.111/update:0.000/all:0.203
+2018-01-16 12:24:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-2.html?_=1516076648566>
+None
+2018-01-16 12:24:16 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.114/insert:0.100/update:0.000/all:0.214
+2018-01-16 12:24:16 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-3.html?_=1516076650030>
+None
+2018-01-16 12:24:16 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:17 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-9.html?_=1516076656571 HTTP/1.1" 200 0
+2018-01-16 12:24:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-8.html?_=1516076655250> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:17 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.095/update:0.000/all:0.188
+2018-01-16 12:24:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-6.html?_=1516076652827>
+None
+2018-01-16 12:24:17 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.107/insert:0.093/update:0.000/all:0.200
+2018-01-16 12:24:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-4.html?_=1516076650928>
+None
+2018-01-16 12:24:17 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.105/update:0.000/all:0.195
+2018-01-16 12:24:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-5.html?_=1516076651640>
+None
+2018-01-16 12:24:17 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.099/insert:0.103/update:0.000/all:0.202
+2018-01-16 12:24:17 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-3.html?_=1516076650030>
+None
+2018-01-16 12:24:17 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:18 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-10.html?_=1516076657875 HTTP/1.1" 200 0
+2018-01-16 12:24:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-9.html?_=1516076656571> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:18 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.113/insert:0.091/update:0.000/all:0.204
+2018-01-16 12:24:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-6.html?_=1516076652827>
+None
+2018-01-16 12:24:18 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.121/insert:0.097/update:0.000/all:0.219
+2018-01-16 12:24:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-7.html?_=1516076653960>
+None
+2018-01-16 12:24:18 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.092/update:0.000/all:0.189
+2018-01-16 12:24:18 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-4.html?_=1516076650928>
+None
+2018-01-16 12:24:19 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.108/insert:0.090/update:0.000/all:0.199
+2018-01-16 12:24:19 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-5.html?_=1516076651640>
+None
+2018-01-16 12:24:19 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:19 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-11.html?_=1516076659197 HTTP/1.1" 200 0
+2018-01-16 12:24:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-10.html?_=1516076657875> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:20 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.098/insert:0.505/update:0.000/all:0.603
+2018-01-16 12:24:20 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-8.html?_=1516076655250>
+None
+2018-01-16 12:24:21 [DataBasePG] INFO: www_worldcurling_org.team_scores select:1.281/insert:0.116/update:0.000/all:1.396
+2018-01-16 12:24:21 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-6.html?_=1516076652827>
+None
+2018-01-16 12:24:23 [DataBasePG] INFO: www_worldcurling_org.team_scores select:2.123/insert:0.100/update:0.000/all:2.222
+2018-01-16 12:24:23 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-7.html?_=1516076653960>
+None
+2018-01-16 12:24:24 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.120/insert:0.104/update:0.000/all:0.223
+2018-01-16 12:24:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-5.html?_=1516076651640>
+None
+2018-01-16 12:24:24 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:24 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-12.html?_=1516076664140 HTTP/1.1" 200 0
+2018-01-16 12:24:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-11.html?_=1516076659197> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:24 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.100/update:0.000/all:0.195
+2018-01-16 12:24:24 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-8.html?_=1516076655250>
+None
+2018-01-16 12:24:25 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.100/update:0.000/all:0.191
+2018-01-16 12:24:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-9.html?_=1516076656571>
+None
+2018-01-16 12:24:25 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.101/update:0.000/all:0.192
+2018-01-16 12:24:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-6.html?_=1516076652827>
+None
+2018-01-16 12:24:25 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.141/update:0.000/all:0.231
+2018-01-16 12:24:25 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-7.html?_=1516076653960>
+None
+2018-01-16 12:24:25 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:25 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-13.html?_=1516076665448 HTTP/1.1" 200 0
+2018-01-16 12:24:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-12.html?_=1516076664140> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:26 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.129/insert:0.138/update:0.000/all:0.267
+2018-01-16 12:24:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-10.html?_=1516076657875>
+None
+2018-01-16 12:24:26 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.139/insert:0.119/update:0.000/all:0.258
+2018-01-16 12:24:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-8.html?_=1516076655250>
+None
+2018-01-16 12:24:26 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.119/insert:0.120/update:0.000/all:0.240
+2018-01-16 12:24:26 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-9.html?_=1516076656571>
+None
+2018-01-16 12:24:26 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:27 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-14.html?_=1516076666749 HTTP/1.1" 200 0
+2018-01-16 12:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-13.html?_=1516076665448> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:27 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.141/insert:0.131/update:0.000/all:0.272
+2018-01-16 12:24:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-10.html?_=1516076657875>
+None
+2018-01-16 12:24:27 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.155/insert:0.131/update:0.000/all:0.286
+2018-01-16 12:24:27 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-11.html?_=1516076659197>
+None
+2018-01-16 12:24:28 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.137/insert:0.120/update:0.000/all:0.257
+2018-01-16 12:24:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-8.html?_=1516076655250>
+None
+2018-01-16 12:24:28 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.118/insert:0.132/update:0.000/all:0.250
+2018-01-16 12:24:28 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-9.html?_=1516076656571>
+None
+2018-01-16 12:24:28 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:28 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-15.html?_=1516076668371 HTTP/1.1" 200 0
+2018-01-16 12:24:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-14.html?_=1516076666749> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:29 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.152/insert:0.119/update:0.000/all:0.271
+2018-01-16 12:24:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-12.html?_=1516076664140>
+None
+2018-01-16 12:24:29 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.140/insert:0.121/update:0.000/all:0.260
+2018-01-16 12:24:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-10.html?_=1516076657875>
+None
+2018-01-16 12:24:29 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.121/insert:0.115/update:0.000/all:0.236
+2018-01-16 12:24:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-11.html?_=1516076659197>
+None
+2018-01-16 12:24:29 [scrapy.extensions.logstats] INFO: Crawled 38 pages (at 38 pages/min), scraped 140 items (at 140 items/min)
+2018-01-16 12:24:29 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.118/insert:0.116/update:0.000/all:0.234
+2018-01-16 12:24:29 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-9.html?_=1516076656571>
+None
+2018-01-16 12:24:29 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:30 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-16.html?_=1516076669900 HTTP/1.1" 200 0
+2018-01-16 12:24:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-15.html?_=1516076668371> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:30 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.121/insert:0.133/update:0.000/all:0.255
+2018-01-16 12:24:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-12.html?_=1516076664140>
+None
+2018-01-16 12:24:30 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.137/insert:0.120/update:0.000/all:0.257
+2018-01-16 12:24:30 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-13.html?_=1516076665448>
+None
+2018-01-16 12:24:31 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.112/insert:0.141/update:0.000/all:0.253
+2018-01-16 12:24:31 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-11.html?_=1516076659197>
+None
+2018-01-16 12:24:31 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:31 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-17.html?_=1516076671222 HTTP/1.1" 200 0
+2018-01-16 12:24:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-16.html?_=1516076669900> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:32 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.135/insert:0.124/update:0.000/all:0.259
+2018-01-16 12:24:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-14.html?_=1516076666749>
+None
+2018-01-16 12:24:32 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.107/insert:0.111/update:0.000/all:0.218
+2018-01-16 12:24:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-12.html?_=1516076664140>
+None
+2018-01-16 12:24:32 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.099/insert:0.100/update:0.000/all:0.199
+2018-01-16 12:24:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-13.html?_=1516076665448>
+None
+2018-01-16 12:24:32 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.091/update:0.000/all:0.183
+2018-01-16 12:24:32 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-11.html?_=1516076659197>
+None
+2018-01-16 12:24:32 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:33 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-18.html?_=1516076672615 HTTP/1.1" 200 0
+2018-01-16 12:24:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-17.html?_=1516076671222> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:33 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.099/insert:0.096/update:0.000/all:0.196
+2018-01-16 12:24:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-15.html?_=1516076668371>
+None
+2018-01-16 12:24:33 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.108/insert:0.095/update:0.000/all:0.202
+2018-01-16 12:24:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-14.html?_=1516076666749>
+None
+2018-01-16 12:24:33 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.099/insert:0.094/update:0.000/all:0.192
+2018-01-16 12:24:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-12.html?_=1516076664140>
+None
+2018-01-16 12:24:33 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.098/update:0.000/all:0.191
+2018-01-16 12:24:33 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-13.html?_=1516076665448>
+None
+2018-01-16 12:24:33 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:34 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-19.html?_=1516076673960 HTTP/1.1" 200 0
+2018-01-16 12:24:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-18.html?_=1516076672615> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:34 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.106/insert:0.092/update:0.000/all:0.198
+2018-01-16 12:24:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-16.html?_=1516076669900>
+None
+2018-01-16 12:24:34 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.091/update:0.000/all:0.183
+2018-01-16 12:24:34 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-15.html?_=1516076668371>
+None
+2018-01-16 12:24:35 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.098/update:0.000/all:0.189
+2018-01-16 12:24:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-14.html?_=1516076666749>
+None
+2018-01-16 12:24:35 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:35 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-20.html?_=1516076675050 HTTP/1.1" 200 0
+2018-01-16 12:24:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-19.html?_=1516076673960> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:35 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.106/insert:0.092/update:0.000/all:0.198
+2018-01-16 12:24:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-16.html?_=1516076669900>
+None
+2018-01-16 12:24:35 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.093/update:0.000/all:0.189
+2018-01-16 12:24:35 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-17.html?_=1516076671222>
+None
+2018-01-16 12:24:36 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.109/insert:0.107/update:0.000/all:0.216
+2018-01-16 12:24:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-15.html?_=1516076668371>
+None
+2018-01-16 12:24:36 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.095/update:0.000/all:0.189
+2018-01-16 12:24:36 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-14.html?_=1516076666749>
+None
+2018-01-16 12:24:36 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:36 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-21.html?_=1516076676357 HTTP/1.1" 200 0
+2018-01-16 12:24:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-20.html?_=1516076675050> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:37 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.092/update:0.000/all:0.187
+2018-01-16 12:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-18.html?_=1516076672615>
+None
+2018-01-16 12:24:37 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.095/update:0.000/all:0.192
+2018-01-16 12:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-16.html?_=1516076669900>
+None
+2018-01-16 12:24:37 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.093/update:0.000/all:0.185
+2018-01-16 12:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-17.html?_=1516076671222>
+None
+2018-01-16 12:24:37 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.095/update:0.000/all:0.191
+2018-01-16 12:24:37 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-15.html?_=1516076668371>
+None
+2018-01-16 12:24:37 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:38 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-22.html?_=1516076677617 HTTP/1.1" 200 0
+2018-01-16 12:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-21.html?_=1516076676357> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:38 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.104/update:0.000/all:0.200
+2018-01-16 12:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-18.html?_=1516076672615>
+None
+2018-01-16 12:24:38 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.097/update:0.000/all:0.190
+2018-01-16 12:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-19.html?_=1516076673960>
+None
+2018-01-16 12:24:38 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.094/update:0.000/all:0.186
+2018-01-16 12:24:38 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-17.html?_=1516076671222>
+None
+2018-01-16 12:24:38 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:39 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-23.html?_=1516076678717 HTTP/1.1" 200 0
+2018-01-16 12:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-22.html?_=1516076677617> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:39 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.139/insert:0.176/update:0.000/all:0.315
+2018-01-16 12:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-20.html?_=1516076675050>
+None
+2018-01-16 12:24:39 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.115/update:0.000/all:0.206
+2018-01-16 12:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-18.html?_=1516076672615>
+None
+2018-01-16 12:24:39 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.098/insert:0.092/update:0.000/all:0.190
+2018-01-16 12:24:39 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-19.html?_=1516076673960>
+None
+2018-01-16 12:24:40 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.094/update:0.000/all:0.186
+2018-01-16 12:24:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-17.html?_=1516076671222>
+None
+2018-01-16 12:24:40 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:40 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-24.html?_=1516076680137 HTTP/1.1" 200 0
+2018-01-16 12:24:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-23.html?_=1516076678717> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:40 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.111/update:0.000/all:0.203
+2018-01-16 12:24:40 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-20.html?_=1516076675050>
+None
+2018-01-16 12:24:41 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.099/update:0.000/all:0.192
+2018-01-16 12:24:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-21.html?_=1516076676357>
+None
+2018-01-16 12:24:41 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.099/insert:0.104/update:0.000/all:0.203
+2018-01-16 12:24:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-18.html?_=1516076672615>
+None
+2018-01-16 12:24:41 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.100/insert:0.112/update:0.000/all:0.212
+2018-01-16 12:24:41 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-19.html?_=1516076673960>
+None
+2018-01-16 12:24:41 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:41 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-25.html?_=1516076681465 HTTP/1.1" 200 0
+2018-01-16 12:24:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-24.html?_=1516076680137> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:42 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.093/update:0.000/all:0.189
+2018-01-16 12:24:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-22.html?_=1516076677617>
+None
+2018-01-16 12:24:42 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.098/update:0.000/all:0.195
+2018-01-16 12:24:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-20.html?_=1516076675050>
+None
+2018-01-16 12:24:42 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.091/update:0.000/all:0.188
+2018-01-16 12:24:42 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-21.html?_=1516076676357>
+None
+2018-01-16 12:24:42 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:46 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-26.html?_=1516076682552 HTTP/1.1" 200 0
+2018-01-16 12:24:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-25.html?_=1516076681465> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:46 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.099/insert:0.099/update:0.000/all:0.198
+2018-01-16 12:24:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-23.html?_=1516076678717>
+None
+2018-01-16 12:24:46 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.093/update:0.000/all:0.183
+2018-01-16 12:24:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-22.html?_=1516076677617>
+None
+2018-01-16 12:24:46 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.091/update:0.000/all:0.184
+2018-01-16 12:24:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-20.html?_=1516076675050>
+None
+2018-01-16 12:24:46 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.115/insert:0.091/update:0.000/all:0.206
+2018-01-16 12:24:46 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-21.html?_=1516076676357>
+None
+2018-01-16 12:24:46 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:47 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-27.html?_=1516076686848 HTTP/1.1" 200 0
+2018-01-16 12:24:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-26.html?_=1516076682552> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:47 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.099/insert:0.091/update:0.000/all:0.190
+2018-01-16 12:24:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-24.html?_=1516076680137>
+None
+2018-01-16 12:24:47 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.123/insert:0.095/update:0.000/all:0.218
+2018-01-16 12:24:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-23.html?_=1516076678717>
+None
+2018-01-16 12:24:47 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.120/insert:0.104/update:0.000/all:0.224
+2018-01-16 12:24:47 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-22.html?_=1516076677617>
+None
+2018-01-16 12:24:48 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.130/insert:0.114/update:0.000/all:0.244
+2018-01-16 12:24:48 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-21.html?_=1516076676357>
+None
+2018-01-16 12:24:48 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:48 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-28.html?_=1516076688233 HTTP/1.1" 200 0
+2018-01-16 12:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-27.html?_=1516076686848> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.131/insert:0.144/update:0.000/all:0.275
+2018-01-16 12:24:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-24.html?_=1516076680137>
+None
+2018-01-16 12:24:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.113/insert:0.131/update:0.000/all:0.244
+2018-01-16 12:24:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-25.html?_=1516076681465>
+None
+2018-01-16 12:24:49 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.115/insert:0.112/update:0.000/all:0.226
+2018-01-16 12:24:49 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-23.html?_=1516076678717>
+None
+2018-01-16 12:24:49 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:50 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-29.html?_=1516076689488 HTTP/1.1" 200 0
+2018-01-16 12:24:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-28.html?_=1516076688233> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.095/update:0.000/all:0.186
+2018-01-16 12:24:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-26.html?_=1516076682552>
+None
+2018-01-16 12:24:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.095/update:0.000/all:0.188
+2018-01-16 12:24:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-24.html?_=1516076680137>
+None
+2018-01-16 12:24:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.092/update:0.000/all:0.189
+2018-01-16 12:24:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-25.html?_=1516076681465>
+None
+2018-01-16 12:24:50 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.136/update:0.000/all:0.228
+2018-01-16 12:24:50 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-23.html?_=1516076678717>
+None
+2018-01-16 12:24:50 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:51 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-30.html?_=1516076690806 HTTP/1.1" 200 0
+2018-01-16 12:24:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-29.html?_=1516076689488> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.104/insert:0.120/update:0.000/all:0.224
+2018-01-16 12:24:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-26.html?_=1516076682552>
+None
+2018-01-16 12:24:51 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.122/insert:0.122/update:0.000/all:0.244
+2018-01-16 12:24:51 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-27.html?_=1516076686848>
+None
+2018-01-16 12:24:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.113/insert:0.138/update:0.000/all:0.250
+2018-01-16 12:24:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-24.html?_=1516076680137>
+None
+2018-01-16 12:24:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.105/insert:0.110/update:0.000/all:0.216
+2018-01-16 12:24:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-25.html?_=1516076681465>
+None
+2018-01-16 12:24:52 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:52 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WJCC2017P/118-session-31.html?_=1516076692260 HTTP/1.1" 404 0
+2018-01-16 12:24:52 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.105/update:0.000/all:0.198
+2018-01-16 12:24:52 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.worldcurling.org/>
+None
+2018-01-16 12:24:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-30.html?_=1516076690806> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.103/update:0.000/all:0.195
+2018-01-16 12:24:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-28.html?_=1516076688233>
+None
+2018-01-16 12:24:53 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.106/insert:0.095/update:0.000/all:0.201
+2018-01-16 12:24:53 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-27.html?_=1516076686848>
+None
+2018-01-16 12:24:53 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:53 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-1.html?_=1516076693375 HTTP/1.1" 200 0
+2018-01-16 12:24:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.097/update:0.000/all:0.189
+2018-01-16 12:24:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-28.html?_=1516076688233>
+None
+2018-01-16 12:24:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.099/update:0.000/all:0.195
+2018-01-16 12:24:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-29.html?_=1516076689488>
+None
+2018-01-16 12:24:54 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:54 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-2.html?_=1516076694269 HTTP/1.1" 200 0
+2018-01-16 12:24:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-1.html?_=1516076693375> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:54 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.097/update:0.000/all:0.188
+2018-01-16 12:24:54 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-30.html?_=1516076690806>
+None
+2018-01-16 12:24:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.091/update:0.000/all:0.184
+2018-01-16 12:24:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-29.html?_=1516076689488>
+None
+2018-01-16 12:24:55 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:55 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-3.html?_=1516076695143 HTTP/1.1" 200 0
+2018-01-16 12:24:55 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.103/update:0.000/all:0.193
+2018-01-16 12:24:55 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WJCC2017P/118-session-30.html?_=1516076690806>
+None
+2018-01-16 12:24:55 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:56 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-4.html?_=1516076695833 HTTP/1.1" 200 0
+2018-01-16 12:24:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-2.html?_=1516076694269> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:56 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.098/update:0.000/all:0.193
+2018-01-16 12:24:56 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-1.html?_=1516076693375>
+None
+2018-01-16 12:24:56 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:57 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-5.html?_=1516076696542 HTTP/1.1" 200 0
+2018-01-16 12:24:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-3.html?_=1516076695143> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:57 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.094/update:0.000/all:0.188
+2018-01-16 12:24:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-1.html?_=1516076693375>
+None
+2018-01-16 12:24:57 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:57 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-6.html?_=1516076697238 HTTP/1.1" 200 0
+2018-01-16 12:24:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-4.html?_=1516076695833> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:57 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.092/update:0.000/all:0.183
+2018-01-16 12:24:57 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-2.html?_=1516076694269>
+None
+2018-01-16 12:24:58 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.140/insert:0.122/update:0.000/all:0.262
+2018-01-16 12:24:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-1.html?_=1516076693375>
+None
+2018-01-16 12:24:58 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:58 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-7.html?_=1516076698188 HTTP/1.1" 200 0
+2018-01-16 12:24:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-5.html?_=1516076696542> (referer: http://www.worldcurling.org/)
+2018-01-16 12:24:58 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.103/insert:0.091/update:0.000/all:0.194
+2018-01-16 12:24:58 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-2.html?_=1516076694269>
+None
+2018-01-16 12:24:59 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.093/update:0.000/all:0.184
+2018-01-16 12:24:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-3.html?_=1516076695143>
+None
+2018-01-16 12:24:59 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.100/update:0.000/all:0.194
+2018-01-16 12:24:59 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-1.html?_=1516076693375>
+None
+2018-01-16 12:24:59 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:24:59 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-8.html?_=1516076699270 HTTP/1.1" 200 0
+2018-01-16 12:24:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-6.html?_=1516076697238> (referer: http://www.worldcurling.org/)
+2018-01-16 12:25:00 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.125/insert:0.127/update:0.000/all:0.252
+2018-01-16 12:25:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-4.html?_=1516076695833>
+None
+2018-01-16 12:25:00 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.126/update:0.000/all:0.220
+2018-01-16 12:25:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-2.html?_=1516076694269>
+None
+2018-01-16 12:25:00 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.118/insert:0.140/update:0.000/all:0.258
+2018-01-16 12:25:00 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-3.html?_=1516076695143>
+None
+2018-01-16 12:25:00 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:25:01 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-9.html?_=1516076700542 HTTP/1.1" 200 0
+2018-01-16 12:25:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-8.html?_=1516076699270> (referer: http://www.worldcurling.org/)
+2018-01-16 12:25:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-7.html?_=1516076698188> (referer: http://www.worldcurling.org/)
+2018-01-16 12:25:01 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.115/insert:0.110/update:0.000/all:0.225
+2018-01-16 12:25:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-4.html?_=1516076695833>
+None
+2018-01-16 12:25:01 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.093/update:0.000/all:0.184
+2018-01-16 12:25:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-5.html?_=1516076696542>
+None
+2018-01-16 12:25:01 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.091/update:0.000/all:0.182
+2018-01-16 12:25:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-2.html?_=1516076694269>
+None
+2018-01-16 12:25:01 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.094/update:0.000/all:0.192
+2018-01-16 12:25:01 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-3.html?_=1516076695143>
+None
+2018-01-16 12:25:01 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:25:02 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-10.html?_=1516076701892 HTTP/1.1" 200 0
+2018-01-16 12:25:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-9.html?_=1516076700542> (referer: http://www.worldcurling.org/)
+2018-01-16 12:25:02 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.099/update:0.000/all:0.191
+2018-01-16 12:25:02 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-6.html?_=1516076697238>
+None
+2018-01-16 12:25:02 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.098/insert:0.092/update:0.000/all:0.191
+2018-01-16 12:25:02 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-4.html?_=1516076695833>
+None
+2018-01-16 12:25:03 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.129/update:0.000/all:0.222
+2018-01-16 12:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-5.html?_=1516076696542>
+None
+2018-01-16 12:25:03 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.108/update:0.000/all:0.199
+2018-01-16 12:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-3.html?_=1516076695143>
+None
+2018-01-16 12:25:03 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:25:03 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-11.html?_=1516076703231 HTTP/1.1" 200 0
+2018-01-16 12:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-10.html?_=1516076701892> (referer: http://www.worldcurling.org/)
+2018-01-16 12:25:03 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.114/insert:0.111/update:0.000/all:0.225
+2018-01-16 12:25:03 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-6.html?_=1516076697238>
+None
+2018-01-16 12:25:04 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.097/insert:0.094/update:0.000/all:0.191
+2018-01-16 12:25:04 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-8.html?_=1516076699270>
+None
+2018-01-16 12:25:04 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.097/update:0.000/all:0.192
+2018-01-16 12:25:04 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-7.html?_=1516076698188>
+None
+2018-01-16 12:25:04 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.090/update:0.000/all:0.185
+2018-01-16 12:25:04 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-5.html?_=1516076696542>
+None
+2018-01-16 12:25:04 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:25:05 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-12.html?_=1516076704556 HTTP/1.1" 200 0
+2018-01-16 12:25:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-11.html?_=1516076703231> (referer: http://www.worldcurling.org/)
+2018-01-16 12:25:05 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.089/update:0.000/all:0.185
+2018-01-16 12:25:05 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-9.html?_=1516076700542>
+None
+2018-01-16 12:25:05 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.097/update:0.000/all:0.192
+2018-01-16 12:25:05 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-6.html?_=1516076697238>
+None
+2018-01-16 12:25:05 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.092/insert:0.093/update:0.000/all:0.184
+2018-01-16 12:25:05 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-8.html?_=1516076699270>
+None
+2018-01-16 12:25:05 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.094/insert:0.096/update:0.000/all:0.189
+2018-01-16 12:25:05 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-7.html?_=1516076698188>
+None
+2018-01-16 12:25:05 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.103/update:0.000/all:0.196
+2018-01-16 12:25:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-5.html?_=1516076696542>
+None
+2018-01-16 12:25:06 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:25:06 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-13.html?_=1516076706001 HTTP/1.1" 200 0
+2018-01-16 12:25:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-12.html?_=1516076704556> (referer: http://www.worldcurling.org/)
+2018-01-16 12:25:06 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.091/update:0.000/all:0.181
+2018-01-16 12:25:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-9.html?_=1516076700542>
+None
+2018-01-16 12:25:06 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.114/insert:0.097/update:0.000/all:0.211
+2018-01-16 12:25:06 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-10.html?_=1516076701892>
+None
+2018-01-16 12:25:07 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.104/update:0.000/all:0.199
+2018-01-16 12:25:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-6.html?_=1516076697238>
+None
+2018-01-16 12:25:07 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.095/update:0.000/all:0.191
+2018-01-16 12:25:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-8.html?_=1516076699270>
+None
+2018-01-16 12:25:07 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.092/update:0.000/all:0.187
+2018-01-16 12:25:07 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-7.html?_=1516076698188>
+None
+2018-01-16 12:25:07 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:25:07 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-14.html?_=1516076707494 HTTP/1.1" 200 0
+2018-01-16 12:25:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-13.html?_=1516076706001> (referer: http://www.worldcurling.org/)
+2018-01-16 12:25:08 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.096/insert:0.092/update:0.000/all:0.189
+2018-01-16 12:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-11.html?_=1516076703231>
+None
+2018-01-16 12:25:08 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.103/update:0.000/all:0.197
+2018-01-16 12:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-9.html?_=1516076700542>
+None
+2018-01-16 12:25:08 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.093/insert:0.092/update:0.000/all:0.185
+2018-01-16 12:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-10.html?_=1516076701892>
+None
+2018-01-16 12:25:08 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.102/insert:0.090/update:0.000/all:0.192
+2018-01-16 12:25:08 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-8.html?_=1516076699270>
+None
+2018-01-16 12:25:08 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:25:09 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-15.html?_=1516076708762 HTTP/1.1" 200 0
+2018-01-16 12:25:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-14.html?_=1516076707494> (referer: http://www.worldcurling.org/)
+2018-01-16 12:25:09 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.091/update:0.000/all:0.181
+2018-01-16 12:25:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-11.html?_=1516076703231>
+None
+2018-01-16 12:25:09 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.091/update:0.000/all:0.181
+2018-01-16 12:25:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-12.html?_=1516076704556>
+None
+2018-01-16 12:25:09 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.096/update:0.000/all:0.188
+2018-01-16 12:25:09 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-9.html?_=1516076700542>
+None
+2018-01-16 12:25:09 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.095/insert:0.095/update:0.000/all:0.190
+2018-01-16 12:25:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-10.html?_=1516076701892>
+None
+2018-01-16 12:25:10 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:25:10 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-16.html?_=1516076710011 HTTP/1.1" 200 0
+2018-01-16 12:25:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-15.html?_=1516076708762> (referer: http://www.worldcurling.org/)
+2018-01-16 12:25:10 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.090/insert:0.091/update:0.000/all:0.181
+2018-01-16 12:25:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-13.html?_=1516076706001>
+None
+2018-01-16 12:25:10 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.091/insert:0.092/update:0.000/all:0.183
+2018-01-16 12:25:10 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-11.html?_=1516076703231>
+None
+2018-01-16 12:25:11 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.105/insert:0.096/update:0.000/all:0.201
+2018-01-16 12:25:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-12.html?_=1516076704556>
+None
+2018-01-16 12:25:11 [urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): odf2.worldcurling.co
+2018-01-16 12:25:11 [urllib3.connectionpool] DEBUG: http://odf2.worldcurling.co:80 "HEAD /data/CUR_WWhCC2017P/119-session-17.html?_=1516076711084 HTTP/1.1" 404 0
+2018-01-16 12:30:44 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.worldcurling.org/> (referer: None)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\development\spider_project_from_1228\Curling\Curling\spiders\team_scores.py", line 73, in parse
+    print 'break----- %s-----%s------%s'%(score_api,status_code,type(status_code))
+IOError: [Errno 0] Error
+2018-01-16 12:30:45 [DataBasePG] ERROR: <class 'sqlalchemy.exc.OperationalError'>:(psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ [SQL: 'SELECT t1."vc_md5" FROM "www_worldcurling_org"."team_scores" AS t1, (VALUES (%(vc_md5_0)s)) AS tmp ("vc_md5") WHERE t1."vc_md5"=tmp."vc_md5";'] [parameters: {'vc_md5_0': 'd5f3fd3dc27a437268896dce4d11324d'}]
+2018-01-16 12:30:45 [DataBasePG] ERROR: <class 'sqlalchemy.exc.OperationalError'>:(psycopg2.OperationalError) server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ [SQL: 'SELECT t1."vc_md5" FROM "www_worldcurling_org"."team_scores" AS t1, (VALUES (%(vc_md5_0)s)) AS tmp ("vc_md5") WHERE t1."vc_md5"=tmp."vc_md5";'] [parameters: {'vc_md5_0': 'd5f3fd3dc27a437268896dce4d11324d'}]
+2018-01-16 12:30:45 [scrapy.crawler] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2018-01-16 12:30:45 [scrapy.core.scraper] ERROR: Error processing {'metric_pk': 'd5f3fd3dc27a437268896dce4d11324d', 'table_name': 'team_scores', 'data_rows': [{'division_name': u'Mixed Teams', 'game_session': '13', 'event_name': 'World Wheelchair Curling Championship 2017', 'formatted_date': u'Fri 10th March', 'sheet_name': u'C', 'home_team_end': u'8', 'formatted_time': u'10:00am', 'home_team_total_score': u'5', 'game_id': u'1983', 'vc_url': 'http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-13.html?_=1516076706001', 'hammer': u'CAN', 'away_team_end': u'8', 'vc_md5': 'd5f3fd3dc27a437268896dce4d11324d', 'home_team': u'NOR', 'away_team': u'CAN', 'event_id': '119', 'home_team_score_list': [u'1', u'1', u'2', u'0', u'0', u'0', u'1', u'0'], 'game_type': u'Tie-breaker', 'dt_update': '2018-01-16 12:24:53', 'away_team_score_list': [u'0', u'0', u'0', u'1', u'1', u'1', u'0', u'1'], 'away_team_total_score': u'4'}]}
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\twisted\internet\defer.py", line 653, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "D:\development\spider_project_from_1228\Curling\Curling\pipelines.py", line 372, in process_item
+    self.process_dict({item['table_name']: item['data_rows']})
+  File "D:\development\spider_project_from_1228\Curling\Curling\pipelines.py", line 76, in process_dict
+    self.process_base(key, values, *tup_pks)
+  File "D:\development\spider_project_from_1228\Curling\Curling\pipelines.py", line 99, in process_base
+    time.sleep(1)
+IOError: [Errno 4] Interrupted function call
+2018-01-16 12:30:45 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.071/insert:0.019/update:0.000/all:0.090
+2018-01-16 12:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-14.html?_=1516076707494>
+None
+2018-01-16 12:30:45 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.015/insert:0.019/update:0.000/all:0.034
+2018-01-16 12:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-11.html?_=1516076703231>
+None
+2018-01-16 12:30:45 [scrapy.crawler] INFO: Received SIGINT twice, forcing unclean shutdown
+2018-01-16 12:30:45 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.014/insert:0.022/update:0.000/all:0.036
+2018-01-16 12:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-12.html?_=1516076704556>
+None
+2018-01-16 12:30:45 [scrapy.extensions.logstats] INFO: Crawled 69 pages (at 31 pages/min), scraped 250 items (at 110 items/min)
+2018-01-16 12:30:45 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-16.html?_=1516076710011> (failed 1 times): User timeout caused connection failure: Getting http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-16.html?_=1516076710011 took longer than 180.0 seconds..
+2018-01-16 12:30:45 [scrapy.core.engine] INFO: Closing spider (shutdown)
+2018-01-16 12:30:45 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.016/insert:0.013/update:0.000/all:0.029
+2018-01-16 12:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-15.html?_=1516076708762>
+None
+2018-01-16 12:30:45 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.020/insert:0.017/update:0.000/all:0.037
+2018-01-16 12:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-14.html?_=1516076707494>
+None
+2018-01-16 12:30:45 [DataBasePG] INFO: www_worldcurling_org.team_scores select:0.012/insert:0.012/update:0.000/all:0.024
+2018-01-16 12:30:45 [scrapy.core.scraper] DEBUG: Scraped from <200 http://odf2.worldcurling.co/data/CUR_WWhCC2017P/119-session-12.html?_=1516076704556>
+None
