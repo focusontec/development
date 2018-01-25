@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="CENT_OS_AG">
+    <serverData>
+      <paths name="CENT_OS_AG">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/0114" local="$PROJECT_DIR$/.." web="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="hk_server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/2016" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

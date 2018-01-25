@@ -3,6 +3,9 @@ import random
 from Queue import Queue
 from threading import Thread
 
+from copy import deepcopy
+
+from gif_api_v1_0 import app
 import requests
 import time
 from werkzeug.routing import BaseConverter
@@ -39,6 +42,17 @@ def unquote_url(rawurl):
     # 实现url解码
     url=urllib.unquote(rawurl)
     return url
+
+def clean_data(item,emp_li):
+    print item
+    # pic_url = eval(item).get('src')
+    item = eval(item)
+    pic_url = item.get('src')
+    if requests.head(url=pic_url).status_code == 200 or 'media.giphy.com' not in pic_url:
+        emp_li.append(item)
+    else:
+        pass
+
 
 class Cleaner:
     def __init__(self,image_data):

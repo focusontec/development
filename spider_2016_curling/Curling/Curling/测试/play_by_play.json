@@ -1,0 +1,1677 @@
+[
+  [
+    {
+      "MSG": "Start"
+    }
+  ],
+  {
+    "STONES": {
+      "0": {
+        "FIRST": "Y"
+      },
+      "1": {
+        "SN": 1,
+        "OWNER": "Y",
+        "PLAYER": "2604",
+        "TASK": "FRONT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "SUN Chengyu",
+        "ES": "1-1"
+      },
+      "2": {
+        "SN": 2,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "3": {
+        "SN": 3,
+        "OWNER": "Y",
+        "PLAYER": "2604",
+        "TASK": "DRAW",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "SUN Chengyu",
+        "ES": "1-3"
+      },
+      "4": {
+        "SN": 4,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "5": {
+        "SN": 5,
+        "OWNER": "Y",
+        "PLAYER": "2603",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "YIN Yanxin",
+        "ES": "1-5"
+      },
+      "6": {
+        "SN": 6,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "7": {
+        "SN": 7,
+        "OWNER": "Y",
+        "PLAYER": "2603",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "YIN Yanxin",
+        "ES": "1-7"
+      },
+      "8": {
+        "SN": 8,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "9": {
+        "SN": 9,
+        "OWNER": "Y",
+        "PLAYER": "2602",
+        "TASK": "HIT-ROLL",
+        "HANDLE": "CW",
+        "POINTS": "3",
+        "CURRENT": "",
+        "PLAYERNAME": "MA Jingyi",
+        "ES": "1-9"
+      },
+      "10": {
+        "SN": 10,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "11": {
+        "SN": 11,
+        "OWNER": "Y",
+        "PLAYER": "2602",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "MA Jingyi",
+        "ES": "1-11"
+      },
+      "12": {
+        "SN": 12,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "13": {
+        "SN": 13,
+        "OWNER": "Y",
+        "PLAYER": "2601",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CCW",
+        "POINTS": "0",
+        "CURRENT": "",
+        "PLAYERNAME": "MEI Jie",
+        "ES": "1-13"
+      },
+      "14": {
+        "SN": 14,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "15": {
+        "SN": 15,
+        "OWNER": "Y",
+        "PLAYER": "2601",
+        "TASK": "HIT-ROLL",
+        "HANDLE": "CW",
+        "POINTS": "3",
+        "CURRENT": "",
+        "PLAYERNAME": "MEI Jie",
+        "ES": "1-15"
+      },
+      "16": {
+        "SN": 16,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      }
+    }
+  },
+  {
+    "STONES": {
+      "0": {
+        "FIRST": "Y"
+      },
+      "1": {
+        "SN": 1,
+        "OWNER": "Y",
+        "PLAYER": "2577",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Fanny SJOEBERG",
+        "ES": "2-1"
+      },
+      "2": {
+        "SN": 2,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "3": {
+        "SN": 3,
+        "OWNER": "Y",
+        "PLAYER": "2577",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Fanny SJOEBERG",
+        "ES": "2-3"
+      },
+      "4": {
+        "SN": 4,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "5": {
+        "SN": 5,
+        "OWNER": "Y",
+        "PLAYER": "2578",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "Almida WINQVIST DE VAL",
+        "ES": "2-5"
+      },
+      "6": {
+        "SN": 6,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "7": {
+        "SN": 7,
+        "OWNER": "Y",
+        "PLAYER": "2578",
+        "TASK": "CLEARING",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Almida WINQVIST DE VAL",
+        "ES": "2-7"
+      },
+      "8": {
+        "SN": 8,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "9": {
+        "SN": 9,
+        "OWNER": "Y",
+        "PLAYER": "2576",
+        "TASK": "CLEARING",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Jennie WAHLIN",
+        "ES": "2-9"
+      },
+      "10": {
+        "SN": 10,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "11": {
+        "SN": 11,
+        "OWNER": "Y",
+        "PLAYER": "2576",
+        "TASK": "CLEARING",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Jennie WAHLIN",
+        "ES": "2-11"
+      },
+      "12": {
+        "SN": 12,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "13": {
+        "SN": 13,
+        "OWNER": "Y",
+        "PLAYER": "2575",
+        "TASK": "CLEARING",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Isabella WRANAA",
+        "ES": "2-13"
+      },
+      "14": {
+        "SN": 14,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "15": {
+        "SN": 15,
+        "OWNER": "Y",
+        "PLAYER": "2575",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "3",
+        "CURRENT": "",
+        "PLAYERNAME": "Isabella WRANAA",
+        "ES": "2-15"
+      },
+      "16": {
+        "SN": 16,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      }
+    }
+  },
+  {
+    "STONES": {
+      "0": {
+        "FIRST": "Y"
+      },
+      "1": {
+        "SN": 1,
+        "OWNER": "Y",
+        "PLAYER": "2577",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "3",
+        "CURRENT": "",
+        "PLAYERNAME": "Fanny SJOEBERG",
+        "ES": "3-1"
+      },
+      "2": {
+        "SN": 2,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "3": {
+        "SN": 3,
+        "OWNER": "Y",
+        "PLAYER": "2577",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "Fanny SJOEBERG",
+        "ES": "3-3"
+      },
+      "4": {
+        "SN": 4,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "5": {
+        "SN": 5,
+        "OWNER": "Y",
+        "PLAYER": "2578",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Almida WINQVIST DE VAL",
+        "ES": "3-5"
+      },
+      "6": {
+        "SN": 6,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "7": {
+        "SN": 7,
+        "OWNER": "Y",
+        "PLAYER": "2578",
+        "TASK": "CLEARING",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Almida WINQVIST DE VAL",
+        "ES": "3-7"
+      },
+      "8": {
+        "SN": 8,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "9": {
+        "SN": 9,
+        "OWNER": "Y",
+        "PLAYER": "2576",
+        "TASK": "CLEARING",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Jennie WAHLIN",
+        "ES": "3-9"
+      },
+      "10": {
+        "SN": 10,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "11": {
+        "SN": 11,
+        "OWNER": "Y",
+        "PLAYER": "2576",
+        "TASK": "CLEARING",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Jennie WAHLIN",
+        "ES": "3-11"
+      },
+      "12": {
+        "SN": 12,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "13": {
+        "SN": 13,
+        "OWNER": "Y",
+        "PLAYER": "2575",
+        "TASK": "CLEARING",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Isabella WRANAA",
+        "ES": "3-13"
+      },
+      "14": {
+        "SN": 14,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "15": {
+        "SN": 15,
+        "OWNER": "Y",
+        "PLAYER": "2575",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Isabella WRANAA",
+        "ES": "3-15"
+      },
+      "16": {
+        "SN": 16,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      }
+    }
+  },
+  {
+    "STONES": {
+      "0": {
+        "FIRST": "Y"
+      },
+      "1": {
+        "SN": 1,
+        "OWNER": "Y",
+        "PLAYER": "2577",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Fanny SJOEBERG",
+        "ES": "4-1"
+      },
+      "2": {
+        "SN": 2,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "3": {
+        "SN": 3,
+        "OWNER": "Y",
+        "PLAYER": "2577",
+        "TASK": "GUARD",
+        "HANDLE": "CW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "Fanny SJOEBERG",
+        "ES": "4-3"
+      },
+      "4": {
+        "SN": 4,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "5": {
+        "SN": 5,
+        "OWNER": "Y",
+        "PLAYER": "2578",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Almida WINQVIST DE VAL",
+        "ES": "4-5"
+      },
+      "6": {
+        "SN": 6,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "7": {
+        "SN": 7,
+        "OWNER": "Y",
+        "PLAYER": "2578",
+        "TASK": "DRAW",
+        "HANDLE": "CCW",
+        "POINTS": "0",
+        "CURRENT": "",
+        "PLAYERNAME": "Almida WINQVIST DE VAL",
+        "ES": "4-7"
+      },
+      "8": {
+        "SN": 8,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "9": {
+        "SN": 9,
+        "OWNER": "Y",
+        "PLAYER": "2576",
+        "TASK": "DRAW",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Jennie WAHLIN",
+        "ES": "4-9"
+      },
+      "10": {
+        "SN": 10,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "11": {
+        "SN": 11,
+        "OWNER": "Y",
+        "PLAYER": "2576",
+        "TASK": "RAISE",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Jennie WAHLIN",
+        "ES": "4-11"
+      },
+      "12": {
+        "SN": 12,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "13": {
+        "SN": 13,
+        "OWNER": "Y",
+        "PLAYER": "2575",
+        "TASK": "DOUBLE",
+        "HANDLE": "CCW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "Isabella WRANAA",
+        "ES": "4-13"
+      },
+      "14": {
+        "SN": 14,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "15": {
+        "SN": 15,
+        "OWNER": "Y",
+        "PLAYER": "2575",
+        "TASK": "GUARD",
+        "HANDLE": "CCW",
+        "POINTS": "0",
+        "CURRENT": "",
+        "PLAYERNAME": "Isabella WRANAA",
+        "ES": "4-15"
+      },
+      "16": {
+        "SN": 16,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      }
+    }
+  },
+  {
+    "STONES": {
+      "0": {
+        "FIRST": "Y"
+      },
+      "1": {
+        "SN": 1,
+        "OWNER": "Y",
+        "PLAYER": "2604",
+        "TASK": "FRONT",
+        "HANDLE": "CCW",
+        "POINTS": "3",
+        "CURRENT": "",
+        "PLAYERNAME": "SUN Chengyu",
+        "ES": "5-1"
+      },
+      "2": {
+        "SN": 2,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "3": {
+        "SN": 3,
+        "OWNER": "Y",
+        "PLAYER": "2604",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "3",
+        "CURRENT": "",
+        "PLAYERNAME": "SUN Chengyu",
+        "ES": "5-3"
+      },
+      "4": {
+        "SN": 4,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "5": {
+        "SN": 5,
+        "OWNER": "Y",
+        "PLAYER": "2603",
+        "TASK": "GUARD",
+        "HANDLE": "CCW",
+        "POINTS": "0",
+        "CURRENT": "",
+        "PLAYERNAME": "YIN Yanxin",
+        "ES": "5-5"
+      },
+      "6": {
+        "SN": 6,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "7": {
+        "SN": 7,
+        "OWNER": "Y",
+        "PLAYER": "2603",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "YIN Yanxin",
+        "ES": "5-7"
+      },
+      "8": {
+        "SN": 8,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "9": {
+        "SN": 9,
+        "OWNER": "Y",
+        "PLAYER": "2602",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "MA Jingyi",
+        "ES": "5-9"
+      },
+      "10": {
+        "SN": 10,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "11": {
+        "SN": 11,
+        "OWNER": "Y",
+        "PLAYER": "2602",
+        "TASK": "RAISE",
+        "HANDLE": "CW",
+        "POINTS": "0",
+        "CURRENT": "",
+        "PLAYERNAME": "MA Jingyi",
+        "ES": "5-11"
+      },
+      "12": {
+        "SN": 12,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "13": {
+        "SN": 13,
+        "OWNER": "Y",
+        "PLAYER": "2601",
+        "TASK": "RAISE",
+        "HANDLE": "CW",
+        "POINTS": "3",
+        "CURRENT": "",
+        "PLAYERNAME": "MEI Jie",
+        "ES": "5-13"
+      },
+      "14": {
+        "SN": 14,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "15": {
+        "SN": 15,
+        "OWNER": "Y",
+        "PLAYER": "2601",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "MEI Jie",
+        "ES": "5-15"
+      },
+      "16": {
+        "SN": 16,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      }
+    }
+  },
+  {
+    "STONES": {
+      "0": {
+        "FIRST": "Y"
+      },
+      "1": {
+        "SN": 1,
+        "OWNER": "Y",
+        "PLAYER": "2577",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Fanny SJOEBERG",
+        "ES": "6-1"
+      },
+      "2": {
+        "SN": 2,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "3": {
+        "SN": 3,
+        "OWNER": "Y",
+        "PLAYER": "2577",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "Fanny SJOEBERG",
+        "ES": "6-3"
+      },
+      "4": {
+        "SN": 4,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "5": {
+        "SN": 5,
+        "OWNER": "Y",
+        "PLAYER": "2578",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Almida WINQVIST DE VAL",
+        "ES": "6-5"
+      },
+      "6": {
+        "SN": 6,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "7": {
+        "SN": 7,
+        "OWNER": "Y",
+        "PLAYER": "2578",
+        "TASK": "CLEARING",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Almida WINQVIST DE VAL",
+        "ES": "6-7"
+      },
+      "8": {
+        "SN": 8,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "9": {
+        "SN": 9,
+        "OWNER": "Y",
+        "PLAYER": "2576",
+        "TASK": "GUARD",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Jennie WAHLIN",
+        "ES": "6-9"
+      },
+      "10": {
+        "SN": 10,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "11": {
+        "SN": 11,
+        "OWNER": "Y",
+        "PLAYER": "2576",
+        "TASK": "GUARD",
+        "HANDLE": "CW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "Jennie WAHLIN",
+        "ES": "6-11"
+      },
+      "12": {
+        "SN": 12,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "13": {
+        "SN": 13,
+        "OWNER": "Y",
+        "PLAYER": "2575",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Isabella WRANAA",
+        "ES": "6-13"
+      },
+      "14": {
+        "SN": 14,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "15": {
+        "SN": 15,
+        "OWNER": "Y",
+        "PLAYER": "2575",
+        "TASK": "GUARD",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Isabella WRANAA",
+        "ES": "6-15"
+      },
+      "16": {
+        "SN": 16,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      }
+    }
+  },
+  {
+    "STONES": {
+      "0": {
+        "FIRST": "Y"
+      },
+      "1": {
+        "SN": 1,
+        "OWNER": "Y",
+        "PLAYER": "2604",
+        "TASK": "FRONT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "SUN Chengyu",
+        "ES": "7-1"
+      },
+      "2": {
+        "SN": 2,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "3": {
+        "SN": 3,
+        "OWNER": "Y",
+        "PLAYER": "2604",
+        "TASK": "DRAW",
+        "HANDLE": "CCW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "SUN Chengyu",
+        "ES": "7-3"
+      },
+      "4": {
+        "SN": 4,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "5": {
+        "SN": 5,
+        "OWNER": "Y",
+        "PLAYER": "2603",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "YIN Yanxin",
+        "ES": "7-5"
+      },
+      "6": {
+        "SN": 6,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "7": {
+        "SN": 7,
+        "OWNER": "Y",
+        "PLAYER": "2603",
+        "TASK": "FRONT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "YIN Yanxin",
+        "ES": "7-7"
+      },
+      "8": {
+        "SN": 8,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "9": {
+        "SN": 9,
+        "OWNER": "Y",
+        "PLAYER": "2602",
+        "TASK": "DRAW",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "MA Jingyi",
+        "ES": "7-9"
+      },
+      "10": {
+        "SN": 10,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "11": {
+        "SN": 11,
+        "OWNER": "Y",
+        "PLAYER": "2602",
+        "TASK": "DRAW",
+        "HANDLE": "CCW",
+        "POINTS": "3",
+        "CURRENT": "",
+        "PLAYERNAME": "MA Jingyi",
+        "ES": "7-11"
+      },
+      "12": {
+        "SN": 12,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "13": {
+        "SN": 13,
+        "OWNER": "Y",
+        "PLAYER": "2601",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CCW",
+        "POINTS": "0",
+        "CURRENT": "",
+        "PLAYERNAME": "MEI Jie",
+        "ES": "7-13"
+      },
+      "14": {
+        "SN": 14,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "15": {
+        "SN": 15,
+        "OWNER": "Y",
+        "PLAYER": "2601",
+        "TASK": "DRAW",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "MEI Jie",
+        "ES": "7-15"
+      },
+      "16": {
+        "SN": 16,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      }
+    }
+  },
+  {
+    "STONES": {
+      "0": {
+        "FIRST": "Y"
+      },
+      "1": {
+        "SN": 1,
+        "OWNER": "Y",
+        "PLAYER": "2604",
+        "TASK": "DRAW",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "SUN Chengyu",
+        "ES": "8-1"
+      },
+      "2": {
+        "SN": 2,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "3": {
+        "SN": 3,
+        "OWNER": "Y",
+        "PLAYER": "2604",
+        "TASK": "GUARD",
+        "HANDLE": "CCW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "SUN Chengyu",
+        "ES": "8-3"
+      },
+      "4": {
+        "SN": 4,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "5": {
+        "SN": 5,
+        "OWNER": "Y",
+        "PLAYER": "2603",
+        "TASK": "HIT-ROLL",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "YIN Yanxin",
+        "ES": "8-5"
+      },
+      "6": {
+        "SN": 6,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "7": {
+        "SN": 7,
+        "OWNER": "Y",
+        "PLAYER": "2603",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "YIN Yanxin",
+        "ES": "8-7"
+      },
+      "8": {
+        "SN": 8,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "9": {
+        "SN": 9,
+        "OWNER": "Y",
+        "PLAYER": "2602",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "MA Jingyi",
+        "ES": "8-9"
+      },
+      "10": {
+        "SN": 10,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "11": {
+        "SN": 11,
+        "OWNER": "Y",
+        "PLAYER": "2602",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "3",
+        "CURRENT": "",
+        "PLAYERNAME": "MA Jingyi",
+        "ES": "8-11"
+      },
+      "12": {
+        "SN": 12,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "13": {
+        "SN": 13,
+        "OWNER": "Y",
+        "PLAYER": "2601",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CCW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "MEI Jie",
+        "ES": "8-13"
+      },
+      "14": {
+        "SN": 14,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "15": {
+        "SN": 15,
+        "OWNER": "Y",
+        "PLAYER": "2601",
+        "TASK": "DOUBLE",
+        "HANDLE": "CW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "MEI Jie",
+        "ES": "8-15"
+      },
+      "16": {
+        "SN": 16,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      }
+    }
+  },
+  {
+    "STONES": {
+      "0": {
+        "FIRST": "Y"
+      },
+      "1": {
+        "SN": 1,
+        "OWNER": "Y",
+        "PLAYER": "2577",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Fanny SJOEBERG",
+        "ES": "9-1"
+      },
+      "2": {
+        "SN": 2,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "3": {
+        "SN": 3,
+        "OWNER": "Y",
+        "PLAYER": "2577",
+        "TASK": "GUARD",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Fanny SJOEBERG",
+        "ES": "9-3"
+      },
+      "4": {
+        "SN": 4,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "5": {
+        "SN": 5,
+        "OWNER": "Y",
+        "PLAYER": "2578",
+        "TASK": "PROMOTION",
+        "HANDLE": "CW",
+        "POINTS": "0",
+        "CURRENT": "",
+        "PLAYERNAME": "Almida WINQVIST DE VAL",
+        "ES": "9-5"
+      },
+      "6": {
+        "SN": 6,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "7": {
+        "SN": 7,
+        "OWNER": "Y",
+        "PLAYER": "2578",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Almida WINQVIST DE VAL",
+        "ES": "9-7"
+      },
+      "8": {
+        "SN": 8,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "9": {
+        "SN": 9,
+        "OWNER": "Y",
+        "PLAYER": "2576",
+        "TASK": "HIT-ROLL",
+        "HANDLE": "CCW",
+        "POINTS": "0",
+        "CURRENT": "",
+        "PLAYERNAME": "Jennie WAHLIN",
+        "ES": "9-9"
+      },
+      "10": {
+        "SN": 10,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "11": {
+        "SN": 11,
+        "OWNER": "Y",
+        "PLAYER": "2576",
+        "TASK": "HIT-ROLL",
+        "HANDLE": "CW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "Jennie WAHLIN",
+        "ES": "9-11"
+      },
+      "12": {
+        "SN": 12,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "13": {
+        "SN": 13,
+        "OWNER": "Y",
+        "PLAYER": "2575",
+        "TASK": "TAKE-OUT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "Isabella WRANAA",
+        "ES": "9-13"
+      },
+      "14": {
+        "SN": 14,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "15": {
+        "SN": 15,
+        "OWNER": "Y",
+        "PLAYER": "2575",
+        "TASK": "DRAW",
+        "HANDLE": "CCW",
+        "POINTS": "1",
+        "CURRENT": "",
+        "PLAYERNAME": "Isabella WRANAA",
+        "ES": "9-15"
+      },
+      "16": {
+        "SN": 16,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      }
+    }
+  },
+  {
+    "STONES": {
+      "0": {
+        "FIRST": "Y"
+      },
+      "1": {
+        "SN": 1,
+        "OWNER": "Y",
+        "PLAYER": "2604",
+        "TASK": "FRONT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "SUN Chengyu",
+        "ES": "10-1"
+      },
+      "2": {
+        "SN": 2,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "3": {
+        "SN": 3,
+        "OWNER": "Y",
+        "PLAYER": "2604",
+        "TASK": "FRONT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "SUN Chengyu",
+        "ES": "10-3"
+      },
+      "4": {
+        "SN": 4,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "5": {
+        "SN": 5,
+        "OWNER": "Y",
+        "PLAYER": "2603",
+        "TASK": "FRONT",
+        "HANDLE": "CW",
+        "POINTS": "2",
+        "CURRENT": "",
+        "PLAYERNAME": "YIN Yanxin",
+        "ES": "10-5"
+      },
+      "6": {
+        "SN": 6,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "7": {
+        "SN": 7,
+        "OWNER": "Y",
+        "PLAYER": "2603",
+        "TASK": "FRONT",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "YIN Yanxin",
+        "ES": "10-7"
+      },
+      "8": {
+        "SN": 8,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "9": {
+        "SN": 9,
+        "OWNER": "Y",
+        "PLAYER": "2602",
+        "TASK": "GUARD",
+        "HANDLE": "CCW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "MA Jingyi",
+        "ES": "10-9"
+      },
+      "10": {
+        "SN": 10,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "11": {
+        "SN": 11,
+        "OWNER": "Y",
+        "PLAYER": "2602",
+        "TASK": "GUARD",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "MA Jingyi",
+        "ES": "10-11"
+      },
+      "12": {
+        "SN": 12,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "13": {
+        "SN": 13,
+        "OWNER": "Y",
+        "PLAYER": "2601",
+        "TASK": "DRAW",
+        "HANDLE": "CW",
+        "POINTS": "4",
+        "CURRENT": "",
+        "PLAYERNAME": "MEI Jie",
+        "ES": "10-13"
+      },
+      "14": {
+        "SN": 14,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      },
+      "15": {
+        "SN": 15,
+        "OWNER": "Y",
+        "PLAYER": "2601",
+        "TASK": "HIT-ROLL",
+        "HANDLE": "CCW",
+        "POINTS": "3",
+        "CURRENT": "",
+        "PLAYERNAME": "MEI Jie",
+        "ES": "10-15"
+      },
+      "16": {
+        "SN": 16,
+        "OWNER": "N",
+        "PLAYER": "",
+        "TASK": "",
+        "HANDLE": "",
+        "POINTS": "",
+        "CURRENT": ""
+      }
+    }
+  }
+]

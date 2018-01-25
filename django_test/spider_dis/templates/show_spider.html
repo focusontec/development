@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>show spider</title>
+</head>
+<body>
+<ul>
+    {% for spider in s.spiders %}
+    <li>{{ spider }} <a href="/start_crawl?spider={{ spider }}&project={{ p }}">开始该爬虫</a></li>
+{% endfor %}
+</ul>
+</body>
+</html>

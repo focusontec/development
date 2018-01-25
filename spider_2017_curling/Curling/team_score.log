@@ -1,0 +1,21 @@
+2018-01-05 10:11:39 [team_scores] ERROR: 抓不到数据了，链接http://odf2.worldcurling.co/data/CUR_WWCC2017P/120-session-23.html?_=1515118296671
+2018-01-05 10:12:35 [team_scores] ERROR: 抓不到数据了，链接http://odf2.worldcurling.co/data/CUR_WMxCC2017P/125-session-1.html?_=1515118352657
+2018-01-05 11:21:03 [scrapy.core.downloader.handlers.http11] WARNING: Got data loss in http://odf2.worldcurling.co/data/WUNI2017P/116-game-1653.html?cb=1515122459495. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2018-01-05 12:22:20 [team_scores] ERROR: 抓不到数据了，链接http://odf2.worldcurling.co/data/CUR_WWCC2017P/120-session-23.html?_=1515126137428
+2018-01-05 12:23:35 [team_scores] ERROR: 抓不到数据了，链接http://odf2.worldcurling.co/data/CUR_WMxCC2017P/125-session-1.html?_=1515126212958
+2018-01-05 12:29:43 [scrapy.core.scraper] ERROR: Spider error processing <GET http://www.worldcurling.org/events/2017> (referer: None)
+Traceback (most recent call last):
+  File "c:\python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 339, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "c:\python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\development\spider_project_from_1228\Curling\Curling\spiders\player_performance.py", line 72, in parse
+    print 'break----- %s-----%s------%s'%(event_session,status_code,type(status_code))
+IOError: [Errno 0] Error
+2018-01-05 12:41:57 [scrapy.utils.spider] ERROR: More than one spider can handle: <GET http://odf2.worldcurling.co/data/CUR_OQE2017P/129-game-4470.html?cb=1515122381678> - player_performance, team_scores
