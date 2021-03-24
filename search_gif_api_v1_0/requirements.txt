@@ -33,7 +33,7 @@ pytz==2017.3
 qiniu==7.1.4
 redis==2.10.5
 requests==2.18.3
-rsa==3.4.2
+rsa==4.1
 rson==0.9
 six==1.11.0
 SQLAlchemy==1.1.15
