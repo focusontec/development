@@ -37,7 +37,7 @@ rsa==3.4.2
 rson==0.9
 six==1.11.0
 SQLAlchemy==1.1.15
-urllib3==1.22
+urllib3==1.26.5
 user-agent==0.1.9
 Werkzeug==0.12.2
 WTForms==2.1
